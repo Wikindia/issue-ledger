@@ -30,8 +30,21 @@ an ECM banker covering Indian BFSI. Sections:
 For EACH section select UP TO FIVE items, most significant first.
 Significance means: worth knowing before the morning call. Ignore routine
 price-target changes and recycled stories. An item belongs in exactly one
-section. If a section has genuinely nothing material, return it as an
-empty list — do NOT pad with noise.
+section.
+
+RECENCY RULES — these override everything else:
+- Include today's date or "today"/"this week" in your search queries so
+  results skew fresh.
+- Before including ANY item, verify from the search result itself that it
+  was published within the last 48 hours. Old stories rank high in search;
+  do not be fooled by prominence.
+- A development from weeks ago qualifies ONLY if there is a NEW report
+  today (e.g. "SEBI approves" is new even if the filing was old) — and the
+  headline must state the new development, not the old one.
+- If you cannot confirm an item's date, DROP it.
+- If a section has genuinely nothing material from the last 48 hours,
+  return it as an empty list. An honest empty section is correct; a stale
+  item is a failure. Never pad.
 
 Respond with ONLY a JSON object, no preamble, no Markdown fences:
 
