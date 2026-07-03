@@ -1,14 +1,151 @@
 {
  "pulse": {
   "sections": {
-   "deals": [],
+   "deals": [
+    {
+     "headline": "SBI Funds Management OFS IPO: Kotak, Axis, ICICI, Jefferies, JM mandated",
+     "source": "Chittorgarh / SEBI DRHP filings",
+     "url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
+     "significance": "A pure OFS of up to 20.37 crore shares by India's largest AMC is the most consequential BFSI ECM event in the pipeline; a who's-who banker syndicate signals high institutional demand expectations and a sizable fee pool.",
+     "pitch_angle": "All key ECM desks already mandated; track SEBI observation letter timing (DRHP filed March 19) — a Q3 CY26 launch window is opening. Use this as a comparables anchor for any AMC/asset-manager QIP or rights pitch.",
+     "tags": {
+      "companies": [
+       "SBI Funds Management",
+       "Kotak Mahindra Capital",
+       "Axis Capital",
+       "ICICI Securities",
+       "Jefferies India",
+       "JM Financial"
+      ],
+      "deal_type": "OFS",
+      "sector": "AMC"
+     }
+    },
+    {
+     "headline": "Acko eyes up to $2 bn IPO; Morgan Stanley, ICICI, Kotak appointed",
+     "source": "Outlook Business",
+     "url": "https://www.outlookbusiness.com/news/acko-ipo-2026-2bn-insurtech-india-banks-appointed",
+     "significance": "Largest-ever Indian insurtech listing attempt at a ~$2.5 bn target valuation; validates the BFSI-tech listing theme and sets a benchmark for embedded-insurance and digital-insurance peers.",
+     "pitch_angle": "Bankers not on the Acko ticket should immediately canvas other insurtech/NBFC-tech clients on readiness; Acko's roadshow will test institutional appetite for loss-making insurtechs and set pricing comps.",
+     "tags": {
+      "companies": [
+       "Acko",
+       "Morgan Stanley India",
+       "ICICI Securities",
+       "Kotak Mahindra Capital"
+      ],
+      "deal_type": "IPO",
+      "sector": "Insurance"
+     }
+    },
+    {
+     "headline": "Fibe (Social Worth Technologies) files DRHP: ₹750 cr fresh issue + OFS",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026",
+     "significance": "EarlySalary's NBFC-tech parent hitting public markets is the first pure-play consumer-credit fintech DRHP of H2 CY26; tests SEBI and investor tolerance for high-yield digital lending IPOs.",
+     "pitch_angle": "Fintech NBFC lending peers (e.g., KreditBee, MoneyView) should be engaged now; Fibe's DRHP disclosures will be the reference document for any competing mandate pitch on credit-tech pricing.",
+     "tags": {
+      "companies": [
+       "Social Worth Technologies",
+       "Fibe"
+      ],
+      "deal_type": "IPO",
+      "sector": "Fintech"
+     }
+    },
+    {
+     "headline": "ICICI Prudential AMC IPO open: mega BFSI-AMC listing with full ECM syndicate",
+     "source": "Groww",
+     "url": "https://groww.in/blog/icici-prudential-amc-ipo-day-1",
+     "significance": "One of the largest AMC IPOs in Indian history is live; subscription momentum will directly influence secondary-market sentiment for listed AMC peers (HDFC AMC, Nippon) and set the tone for the broader BFSI ECM pipeline.",
+     "pitch_angle": "Monitor Day 1–3 subscription data closely — QIB oversubscription will unlock institutional flow into the AMC sector and justify fresh QIP pitches to listed asset managers needing growth capital.",
+     "tags": {
+      "companies": [
+       "ICICI Prudential AMC",
+       "Citi India",
+       "Morgan Stanley India",
+       "Axis Capital",
+       "IIFL Capital",
+       "Kotak Mahindra Capital",
+       "Goldman Sachs India",
+       "JM Financial",
+       "Motilal Oswal"
+      ],
+      "deal_type": "IPO",
+      "sector": "AMC"
+     }
+    },
+    {
+     "headline": "₹4.7-trillion H2 CY26 IPO pipeline builds; NSE and Jio Financial in focus",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/",
+     "significance": "The confirmed pipeline scale — NSE's own listing and Jio Financial products — means ECM bankers face the busiest H2 issuance environment in Indian capital markets history, with BFSI names prominent.",
+     "pitch_angle": "Pitch accelerated DRHP preparation to any BFSI client sitting on the sidelines; the window is crowded but liquid — market absorptive capacity is at a structural high per the ₹4.7 tr figure.",
+     "tags": {
+      "companies": [
+       "NSE",
+       "Jio Financial Services"
+      ],
+      "deal_type": "IPO",
+      "sector": "Market Infra"
+     }
+    }
+   ],
    "market": [
     {
-     "headline": "FII selling continues; DIIs step in to support",
-     "source": "5paisa / NSE Data",
-     "url": "",
-     "significance": "FII net seller at ₹311.80Cr on July 3; DII absorption at ₹1,784Cr kept support intact",
-     "pitch_angle": "Monitor DII flows for shift in risk appetite; prepare for potential volatility if DIIs weaken",
+     "headline": "Nifty closes at 24,271 (+0.39%); IT, pharma, realty lead; Bank Nifty lags",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-july-3-nse-bse-sensex-today-nifty-gift-nifty-ipo-it-stocks-share-market-today-126070300090_1.html",
+     "significance": "Broad market extended gains but Bank Nifty underperformed, indicating that BFSI is not yet leading the recovery — a risk factor for BFSI ECM pricing and book-building confidence.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "FIIs net sellers ₹312 cr cash on July 3; DIIs absorb with ₹1,784 cr net buy",
+     "source": "5paisa / Nifty Trader",
+     "url": "https://www.5paisa.com/share-market-today/fii-dii-data",
+     "significance": "FIIs remain in mild sell mode while DIIs are comfortably absorbing — healthy for primary market book-building where DIIs anchor QIB portions, but persistent FPI selling caps upside for large-cap BFSI stocks.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Sensex down 10.3% in H1 CY26 on FPI selling; mid/small caps outperform",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/",
+     "significance": "Large-cap BFSI names bore the brunt of FPI outflows in H1; mid-cap BFSI and fintech stories may offer better listing pop — relevant for pricing and tranche allocation in upcoming BFSI IPOs.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Bank Nifty range-bound 57,000–58,500; failure to break last week's high key",
+     "source": "Goodreturns",
+     "url": "https://www.goodreturns.in/news/stock-market-outlook-today-july-3-2026-sensex-nifty-likely-to-stay-positive-it-bank-shares-in-focus-1519701.html",
+     "significance": "Flat Bank Nifty constrains anchor pricing for BFSI IPOs/QIPs — book-runners need to watch this range for any upward breakout before fixing price bands.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "SIP flows structurally absorbing FPI exits; 63 consecutive months of positive inflows",
+     "source": "IndMoney",
+     "url": "https://www.indmoney.com/blog/mutual-funds/nifty-50-2026-market-recovery",
+     "significance": "Structural DII bid from ₹3.3 tn annualised SIPs means primary market demand is more resilient than FII data implies — strong tailwind for ECM execution even in volatile FPI environments.",
+     "pitch_angle": "",
      "tags": {
       "companies": [],
       "deal_type": "Market",
@@ -18,11 +155,39 @@
    ],
    "macro": [
     {
-     "headline": "10Y yield at 15-week low; foreign bond inflows sustain",
-     "source": "Trading Economics / Whalesbook",
-     "url": "",
-     "significance": "Strong foreign interest in Indian government securities supports debt market; >$3Bn inflows since June",
-     "pitch_angle": "Positive backdrop for secondary capital raises; monitor debt auction on Friday for pricing cues",
+     "headline": "RBI holds repo at 5.25%; neutral stance retained, inflation and growth risks flagged",
+     "source": "Forbes India",
+     "url": "https://www.forbesindia.com/article/forbesindiablogs/rbi-mpc-june-2026-live-repo-rate-decision-governor-sanjay-malhotra-gdp-data-updates-liveblog/2994645/1",
+     "significance": "No rate cut delivered at June MPC — rate-sensitive BFSI stocks (banks, HFCs) face a higher-for-longer cost-of-funds environment, constraining NIM expansion and equity re-rating.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "RBI"
+      ],
+      "deal_type": "Macro",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "RBI revises FY27 CPI inflation forecast up to 5.1%; crude oil key risk",
+     "source": "Elite Wealth",
+     "url": "https://elitewealth.in/rbi-revises-fy27-inflation-estimate-to-5-1-amid-rising-crude-oil-prices-and-global-uncertainty/",
+     "significance": "A higher inflation path reduces the probability of near-term rate cuts, weighing on bond markets and NBFC/HFC cost structures — affects the relative attractiveness of BFSI equity stories in IPO roadshows.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "RBI"
+      ],
+      "deal_type": "Macro",
+      "sector": "NBFC"
+     }
+    },
+    {
+     "headline": "India CPI rose to 3.93% in May from 3.48% in April; trend heading upward",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/inflation-cpi",
+     "significance": "Sequential pick-up in retail inflation, though still sub-4%, narrows the dovish pivot window for RBI and keeps real rates elevated — a nuanced negative for credit-heavy BFSI ECM stories.",
+     "pitch_angle": "",
      "tags": {
       "companies": [],
       "deal_type": "Macro",
@@ -30,11 +195,23 @@
      }
     },
     {
-     "headline": "Goldman lifts 2026 GDP to 6.8%; inflation & CAD revised down",
-     "source": "Trading Economics",
-     "url": "",
-     "significance": "Upgraded growth outlook offsets inflation and current account risks; signals confidence in India story",
-     "pitch_angle": "Use as anchor for IPO demand narratives; supports equity market sentiment",
+     "headline": "Crude oil at $72/bbl; INR at 95.15/USD — stable but elevated vs prior year",
+     "source": "Goodreturns",
+     "url": "https://www.goodreturns.in/news/stock-market-outlook-today-july-3-2026-sensex-nifty-likely-to-stay-positive-it-bank-shares-in-focus-1519701.html",
+     "significance": "Crude above $70 keeps India's import bill elevated and pressures the current account — sustained INR weakness at 95+ erodes FPI returns and could delay return of foreign anchor investors to BFSI IPOs.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Government removes capital gains/withholding tax on foreign investment in G-Secs",
+     "source": "Forbes India",
+     "url": "https://www.forbesindia.com/article/forbesindiablogs/rbi-mpc-june-2026-live-repo-rate-decision-governor-sanjay-malhotra-gdp-data-updates-liveblog/2994645/1",
+     "significance": "A coordinated fiscal-monetary move to attract foreign capital into Indian debt — positive for bond yields and INR medium-term; could draw global fixed-income investors back, indirectly improving BFSI equity sentiment.",
+     "pitch_angle": "",
      "tags": {
       "companies": [],
       "deal_type": "Macro",
@@ -42,32 +219,74 @@
      }
     }
    ],
-   "headlines": [
+   "regulatory": [
     {
-     "headline": "Adon Agro & Aastha Spintex IPO listings scheduled for July 6",
-     "source": "Angel One",
-     "url": "",
-     "significance": "Two SME/mainboard IPOs listing within 48 hours; tests primary market depth post-June recovery",
-     "pitch_angle": "Track subscription and debut performance for parity window and secondary market dynamics",
+     "headline": "SEBI ICDR Amendment 2026: mandatory abridged prospectus with QR codes live",
+     "source": "Angel One / LawSikho",
+     "url": "https://www.angelone.in/knowledge-center/ipo/ipo-new-norms-sebi-guidelines",
+     "significance": "SEBI's March 2026 ICDR amendments now require a draft abridged prospectus (with QR-code links to full DRHP) to be filed simultaneously — raises disclosure compliance bar for all in-flight and upcoming BFSI IPO mandates.",
+     "pitch_angle": "Ensure all active BFSI DRHP drafts comply with the new abridged-prospectus and QR-code format requirement before filing; non-compliance risks SEBI return of observations and delays listing timeline.",
      "tags": {
       "companies": [
-       "Adon Agro Commodities",
-       "Aastha Spintex"
+       "SEBI"
       ],
-      "deal_type": "IPO",
+      "deal_type": "Regulatory",
       "sector": ""
      }
+    },
+    {
+     "headline": "SEBI 2026 ICDR: anchor investor lock-in split 30-day/90-day structure in force",
+     "source": "Angel One",
+     "url": "https://www.angelone.in/knowledge-center/ipo/ipo-new-norms-sebi-guidelines",
+     "significance": "50% of anchor allotment locked for 30 days and the remaining 50% for 90 days — reduces post-listing anchor selling pressure, a meaningful structural positive for BFSI IPO aftermarket stability.",
+     "pitch_angle": "Use the extended anchor lock-in as a marketing point with long-only anchor investors in BFSI roadshows; helps position the issue as having a more stable post-listing float vs pre-2025 norms.",
+     "tags": {
+      "companies": [
+       "SEBI"
+      ],
+      "deal_type": "Regulatory",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "SEBI ICDR 2026: pre-IPO transactions must be reported to exchanges within 24 hours",
+     "source": "Law.asia",
+     "url": "https://law.asia/sebi-regulations-capital-markets-india/",
+     "significance": "New 24-hour pre-IPO transaction reporting obligation tightens disclosure timelines for PE sellers and promoters doing secondary stake transfers before DRHP filing — directly impacts BFSI PE exits (True North, ChrysCapital, Kedaara).",
+     "pitch_angle": "Alert PE clients (True North, ChrysCapital, Kedaara, Multiples) with BFSI portfolio companies that any pre-IPO secondary trade must now be exchange-reported within 24 hours; structure exit timelines accordingly.",
+     "tags": {
+      "companies": [
+       "SEBI",
+       "True North",
+       "ChrysCapital",
+       "Kedaara Capital",
+       "Multiples Alternate Asset Management"
+      ],
+      "deal_type": "Regulatory",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Small savings rates unchanged for upcoming quarter — government policy hold",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026",
+     "significance": "Stable small savings rates reduce competitive pressure on bank deposit mobilisation — marginal positive for bank NIM and reduces urgency for banks to raise equity capital to fund deposit competition.",
+     "pitch_angle": "Neutral near-term for bank QIP/rights pipeline; use the stable deposit-rate environment as a 'NIM floor' argument in BFSI equity stories on institutional roadshows.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Bank"
+     }
     }
-   ],
-   "regulatory": []
+   ]
   },
-  "one_line_read": "Thin weekend data; DII-led market support and robust foreign bond inflows overshadow FII selling; two small-cap listings on deck for Monday.",
+  "one_line_read": "Indian ECM tone is cautiously constructive — a record ₹4.7 tn H2 pipeline headlined by ICICI Pru AMC and Acko IPOs is being assembled against a backdrop of FPI selling, a hawkish RBI holding at 5.25%, and resilient DII/SIP demand that continues to underwrite primary market books.",
   "quiet_day": false
  },
  "card": {
   "mode": "behavioral",
-  "title": "The 'Domestic Bank to Global Franchise' Question",
-  "question": "You've built solid deal experience at SBI Capital Markets—a top-tier domestic franchise. Why move to a foreign bank or PE fund now? What aren't you getting that you need?",
-  "teaching": "This question isn't really about SBI. It's asking: Are you running *toward* something, or running *away*? Interviewers at Goldman or Blackstone will probe whether you understand your own gaps and whether you'll stay engaged once the novelty wears off.\n\nHere's what they're actually testing: (1) Do you have conviction about what buy-side or global capital markets work demands that you haven't experienced? (2) Can you articulate it without sounding ungrateful or small-minded about domestic franchises? (3) Will you be the person who leaves in 18 months because the grass looked greener?\n\nThe trap: saying \"I want international exposure\" or \"SBI doesn't do cross-border M&A.\" Too vague. Too defensive.\n\nThe reasoning pattern: Pick ONE specific capability gap from your actual deal flow, and name the next-level question you couldn't answer. For example: On the Bajaj Housing Finance IPO, you executed the domestic roadshow brilliantly—but you never sat in the New York and London investor meetings. You saw the term sheet, but not the live negotiation with a $50B endowment on LBO multiples or the conviction call when the market moved 200bps in two days. Or: On NSDL and the NSE co-management, you learned BFSI regulatory dance, but you never modeled a leveraged buyout where you had to defend *why* 5.5x EBITDA multiple was the right entry price to a GP partner who has $15B to deploy.\n\nThen connect that gap to the seat you're applying for—explicitly. \"I want to make capital allocation decisions, not execute them.\" Or: \"I want to own the return thesis end-to-end, not just price the moment.\"\n\nEnd with evidence you've already started bridging the gap (reading, online courses, conversations with buy-side contacts). This signals seriousness, not just restlessness.\n\nThe domestic franchise is *valuable*—tell them that. But you're not leaving it. You're graduating from it."
+  "title": "The 'Tell Me About a Time You Pushed Back' Trap",
+  "question": "A foreign bank MD or PE interviewer asks: 'Give me an example of a time you disagreed with a senior colleague or client and how you handled it.' What are they actually testing, and how should you structure your answer?",
+  "teaching": "What they're really probing: not conflict for its own sake. They want to know whether you have independent judgment, whether you can hold a view under pressure, and — critically — whether you know when to escalate versus absorb. At a foreign bank or PE fund, analysts and associates are expected to flag problems early. A candidate who has only ever nodded along is a liability.\n\nThe trap most candidates fall into: they pick either a trivial example ('I suggested a different font on a slide') or they sound insubordinate ('I told the MD he was wrong'). Both fail. The sweet spot is professional disagreement on something analytically substantive, handled through data rather than ego, with a constructive outcome.\n\nThe structure that works: Situation in one sentence. Your specific concern, explained with the underlying logic. How you raised it — to whom, in what form, with what evidence. What happened. What you learned about when to push and when to defer.\n\nAn illustrative sketch from your deal shelf: The Bajaj Housing Finance IPO priced at ₹70 in September 2024 against a backdrop of SEBI's tightening stance on HFC valuations and the broader NBFC-housing credit narrative. Imagine during book-building your team was anchoring the institutional story heavily on NIM expansion, but you'd been tracking RBI's draft guidelines on LTV caps that suggested margin pressure ahead. Raising that proactively — not to kill the deal momentum, but to pressure-test the sensitivity analysis before an anchor investor asked the same question — is exactly the kind of push-back that looks good. You're not saying the deal is wrong; you're saying the materials need to be more robust.\n\nThe lesson to embed in your answer: good push-back is always in service of the client or the deal, never about being right. That framing is what separates someone the interviewer wants to promote from someone they'd worry about managing."
  }
 }
