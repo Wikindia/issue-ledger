@@ -1,24 +1,25 @@
 """
 Renders site/index.html (today's brief) and site/bank.html (knowledge bank).
 
-Design system — "issue ledger":
-  Ink    #0C0F12  page background (blue-black, not pure black)
-  Panel  #12161B  cards
-  Rule   #262E36  hairlines
-  Paper  #E9E3D3  primary text (prospectus cream)
-  Dim    #8B9299  secondary text
-  Brass  #C9A570  accent (tombstone gilt)
-  Sage   #86A88B  quiet-day / calm marker
+Design system — "morning paper" (minimalist, book/FT register):
+  Paper  #FBF3E6  page background (warm salmon-beige, FT-adjacent)
+  Wash   #F4EAD8  inset panels
+  Ink    #262320  primary text
+  Dim    #6E655A  secondary text
+  Rule   #DCCFBA  hairlines
+  Claret #8C1F2F  accent (links, pitch lines)
 
 Type: Fraunces (display serif), Spectral (reading serif), IBM Plex Mono
-(labels, tickers, data). Signature device: prospectus double-rule masthead
-and folio-numbered ledger entries.
+(labels, tickers, dates). Signature device: masthead double rule and
+folio-numbered ledger entries, restarting per section.
 """
 
 import html
 import json
 import os
 from datetime import date
+
+import prompts
 
 SITE_DIR = os.path.join(os.path.dirname(__file__), "site")
 
@@ -29,68 +30,64 @@ def esc(s: str) -> str:
 
 CSS = """
 :root{
-  --ink:#0C0F12; --panel:#12161B; --rule:#262E36;
-  --paper:#E9E3D3; --dim:#8B9299; --brass:#C9A570; --sage:#86A88B;
+  --paper:#FBF3E6; --wash:#F4EAD8; --ink:#262320;
+  --dim:#6E655A; --rule:#DCCFBA; --claret:#8C1F2F;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{background:var(--ink);color:var(--paper);
+body{background:var(--paper);color:var(--ink);
   font-family:'Spectral',Georgia,serif;font-size:16px;line-height:1.6}
-a{color:var(--brass);text-decoration:none;border-bottom:1px solid var(--rule)}
-a:hover,a:focus-visible{border-bottom-color:var(--brass);outline:none}
-.wrap{max-width:740px;margin:0 auto;padding:40px 22px 80px}
+a{color:var(--claret);text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover,a:focus-visible{border-bottom-color:var(--claret);outline:none}
+.wrap{max-width:720px;margin:0 auto;padding:44px 22px 90px}
 .mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
 
-/* masthead — prospectus double rule */
-.masthead{border-top:3px solid var(--paper);position:relative;padding-top:7px}
-.masthead::before{content:"";display:block;border-top:1px solid var(--paper);
+/* masthead — double rule, like a paper's folio line */
+.masthead{border-top:3px solid var(--ink);position:relative;padding-top:6px}
+.masthead::before{content:"";display:block;border-top:1px solid var(--ink);
   margin-bottom:22px}
 .mast-row{display:flex;justify-content:space-between;align-items:baseline;
   flex-wrap:wrap;gap:6px}
 .mast-title{font-family:'Fraunces',Georgia,serif;font-weight:600;
   font-size:30px;letter-spacing:.01em}
-.mast-title em{font-style:italic;color:var(--brass);font-weight:500}
+.mast-title em{font-style:italic;color:var(--claret);font-weight:500}
 .mast-meta{font-family:'IBM Plex Mono',monospace;font-size:11px;
   color:var(--dim);letter-spacing:.14em;text-transform:uppercase}
 .readline{margin:14px 0 0;color:var(--dim);font-style:italic;font-size:15px}
 
 /* section labels */
 .seclabel{font-family:'IBM Plex Mono',monospace;font-size:11px;
-  letter-spacing:.22em;text-transform:uppercase;color:var(--brass);
-  margin:52px 0 6px;display:flex;align-items:center;gap:12px}
+  letter-spacing:.24em;text-transform:uppercase;color:var(--ink);
+  margin:50px 0 4px;display:flex;align-items:center;gap:12px}
 .seclabel::after{content:"";flex:1;border-top:1px solid var(--rule)}
 
 /* ledger entries */
-.entry{display:grid;grid-template-columns:44px 1fr;gap:0 14px;
-  padding:20px 0;border-bottom:1px solid var(--rule)}
-.folio{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--dim);
+.entry{display:grid;grid-template-columns:40px 1fr;gap:0 14px;
+  padding:18px 0;border-bottom:1px solid var(--rule)}
+.entry:last-of-type{border-bottom:none}
+.folio{font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--dim);
   padding-top:5px}
-.headline{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:19px;
+.headline{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:18.5px;
   line-height:1.35}
-.sig{color:var(--dim);font-size:15px;margin-top:6px}
-.pitch{margin-top:9px;font-size:14.5px;color:var(--brass)}
+.sig{color:var(--dim);font-size:15px;margin-top:5px}
+.pitch{margin-top:8px;font-size:14.5px;color:var(--claret)}
 .pitch::before{content:"\\2192  pitch \\00b7 ";font-family:'IBM Plex Mono',monospace;
-  font-size:11px;letter-spacing:.12em;text-transform:uppercase}
-.tags{margin-top:9px;display:flex;flex-wrap:wrap;gap:7px}
-.tag{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--dim);
-  border:1px solid var(--rule);padding:2px 7px;letter-spacing:.06em}
-.tag.deal{color:var(--brass);border-color:#3a3428}
-.src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim);
-  margin-top:8px}
-.quiet{padding:34px 0;border-bottom:1px solid var(--rule);
-  font-family:'Fraunces',Georgia,serif;font-size:18px;color:var(--sage);
-  font-style:italic}
+  font-size:10.5px;letter-spacing:.12em;text-transform:uppercase}
+.meta{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--dim);
+  margin-top:8px;letter-spacing:.05em}
+.meta .t{text-transform:uppercase}
+.quiet{padding:16px 0 6px;font-style:italic;color:var(--dim);font-size:15px}
 
 /* coaching card */
-.card{background:var(--panel);border-left:2px solid var(--brass);
-  padding:26px 26px 28px;margin-top:10px}
+.card{background:var(--wash);border-left:2px solid var(--claret);
+  padding:26px 26px 28px;margin-top:14px}
 .card .mode{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
   letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
 .card h2{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:21px;
   margin:8px 0 14px}
-.card .q{font-style:italic;color:var(--paper);border-bottom:1px solid var(--rule);
+.card .q{font-style:italic;border-bottom:1px solid var(--rule);
   padding-bottom:14px;margin-bottom:14px}
-.card .teach p{margin-bottom:12px;font-size:15.5px;color:#D8D2C3}
+.card .teach p{margin-bottom:12px;font-size:15.5px}
 .card .teach p:last-child{margin-bottom:0}
 
 /* footer */
@@ -100,10 +97,10 @@ a:hover,a:focus-visible{border-bottom-color:var(--brass);outline:none}
   letter-spacing:.1em;text-transform:uppercase}
 
 /* knowledge bank */
-.search{width:100%;background:var(--panel);border:1px solid var(--rule);
-  color:var(--paper);font-family:'IBM Plex Mono',monospace;font-size:14px;
+.search{width:100%;background:var(--wash);border:1px solid var(--rule);
+  color:var(--ink);font-family:'IBM Plex Mono',monospace;font-size:14px;
   padding:11px 14px;margin:18px 0 8px}
-.search:focus-visible{outline:1px solid var(--brass)}
+.search:focus-visible{outline:1px solid var(--claret)}
 .entity{padding:22px 0;border-bottom:1px solid var(--rule)}
 .entity h3{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:19px;
   display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
@@ -112,13 +109,13 @@ a:hover,a:focus-visible{border-bottom-color:var(--brass);outline:none}
 .note{display:grid;grid-template-columns:86px 1fr;gap:0 14px;margin-top:12px}
 .note .d{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--dim);
   padding-top:3px}
-.note .n{font-size:15px;color:#D8D2C3}
+.note .n{font-size:15px}
 .note .n .m{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
   color:var(--dim);letter-spacing:.06em}
 .count{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim);
   letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
 @media(max-width:520px){
-  .entry{grid-template-columns:30px 1fr}
+  .entry{grid-template-columns:28px 1fr}
   .note{grid-template-columns:1fr}.note .d{padding:0 0 2px}
   .mast-title{font-size:24px}
 }
@@ -137,7 +134,7 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
 def _page(title: str, body: str) -> str:
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="light">
 <title>{esc(title)}</title>{FONTS}<style>{CSS}</style></head>
 <body><div class="wrap">{body}</div></body></html>"""
 
@@ -152,38 +149,55 @@ def _masthead(today: date, sub: str) -> str:
 </header>"""
 
 
-def render_index(today: date, pulse: dict, card: dict) -> None:
-    # --- pulse entries -----------------------------------------------------
-    if pulse.get("quiet_day"):
-        entries = '<div class="quiet">Quiet day — nothing material.</div>'
-    else:
-        rows = []
-        for i, it in enumerate(pulse.get("items", []), 1):
-            tags = it.get("tags", {}) or {}
-            chips = "".join(
-                f'<span class="tag">{esc(c)}</span>'
-                for c in (tags.get("companies") or [])
-            )
-            if tags.get("deal_type"):
-                chips = f'<span class="tag deal">{esc(tags["deal_type"])}</span>' + chips
-            if tags.get("sector"):
-                chips += f'<span class="tag">{esc(tags["sector"])}</span>'
-            pitch = (f'<div class="pitch">{esc(it["pitch_angle"])}</div>'
-                     if it.get("pitch_angle") else "")
-            src = esc(it.get("source", ""))
-            if it.get("url"):
-                src = f'<a href="{esc(it["url"])}" rel="noopener">{src}</a>'
-            rows.append(f"""<article class="entry">
+def _item_html(i: int, it: dict) -> str:
+    tags = it.get("tags", {}) or {}
+    meta_bits = []
+    if tags.get("deal_type"):
+        meta_bits.append(f'<span class="t">{esc(tags["deal_type"])}</span>')
+    for c in tags.get("companies") or []:
+        meta_bits.append(esc(c))
+    if tags.get("sector"):
+        meta_bits.append(esc(tags["sector"]))
+    src = esc(it.get("source", ""))
+    if it.get("url"):
+        src = f'<a href="{esc(it["url"])}" rel="noopener">{src}</a>'
+    if src:
+        meta_bits.append(src)
+    pitch = (f'<div class="pitch">{esc(it["pitch_angle"])}</div>'
+             if it.get("pitch_angle") else "")
+    return f"""<article class="entry">
   <div class="folio">{i:02d}</div>
   <div>
     <div class="headline">{esc(it.get("headline",""))}</div>
     <div class="sig">{esc(it.get("significance",""))}</div>
     {pitch}
-    <div class="tags">{chips}</div>
-    <div class="src">{src}</div>
+    <div class="meta">{" &middot; ".join(meta_bits)}</div>
   </div>
-</article>""")
-        entries = "".join(rows)
+</article>"""
+
+
+def render_index(today: date, pulse: dict, card: dict) -> None:
+    # --- sectioned pulse ---------------------------------------------------
+    sections_html = []
+    sections = pulse.get("sections", {}) or {}
+    for key, label in prompts.SECTION_ORDER:
+        items = sections.get(key) or []
+        sections_html.append(f'<div class="seclabel">{esc(label)}</div>')
+        if not items:
+            sections_html.append('<div class="quiet">Nothing material.</div>')
+        else:
+            for i, it in enumerate(items, 1):
+                sections_html.append(_item_html(i, it))
+
+    # legacy fallback: pre-section archives that only had a flat items list
+    if not sections and pulse.get("items"):
+        sections_html = ['<div class="seclabel">Market pulse</div>']
+        for i, it in enumerate(pulse["items"], 1):
+            sections_html.append(_item_html(i, it))
+
+    if pulse.get("quiet_day"):
+        sections_html = ['<div class="seclabel">Market pulse</div>',
+                         '<div class="quiet">Quiet day — nothing material.</div>']
 
     # --- coaching card -----------------------------------------------------
     mode_label = {"technical": "Technical teach", "behavioral": "Fit & behavioral",
@@ -199,9 +213,9 @@ def render_index(today: date, pulse: dict, card: dict) -> None:
 
     body = (
         _masthead(today, pulse.get("one_line_read", ""))
-        + '<div class="seclabel">Market pulse</div>' + entries
+        + "".join(sections_html)
         + '<div class="seclabel">Coaching card</div>' + card_html
-        + f"""<footer class="foot">
+        + """<footer class="foot">
   <span><a href="bank.html">Knowledge bank →</a></span>
   <span>Generated before you woke up</span>
 </footer>"""
@@ -216,7 +230,6 @@ def render_bank(today: date, bank: dict) -> None:
     n_entries = sum(len(e.get("entries", [])) for e in entities.values())
 
     blocks = []
-    # newest activity first
     def latest(e):
         ds = [x.get("date", "") for x in e.get("entries", [])]
         return max(ds) if ds else ""
@@ -243,7 +256,7 @@ def render_bank(today: date, bank: dict) -> None:
 
     body = (
         _masthead(today, "Everything worth knowing about Indian BFSI capital markets, continuously updated.")
-        + f'<div class="seclabel">Knowledge bank</div>'
+        + '<div class="seclabel">Knowledge bank</div>'
         + f'<div class="count">{len(entities)} entities · {n_entries} notes</div>'
         + '<input class="search" id="q" type="search" placeholder="filter — company, deal type, sector, keyword" aria-label="Filter knowledge bank">'
         + "".join(blocks)
