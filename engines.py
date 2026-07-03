@@ -75,6 +75,10 @@ def run_pulse(today: date) -> dict:
         key: list(sections.get(key) or [])[:5]
         for key, _label in prompts.SECTION_ORDER
     }
+    # Pitch angles only make sense on durable sections; drop forced ones.
+    for key in ("market", "macro"):
+        for item in data["sections"].get(key, []):
+            item["pitch_angle"] = ""
     data["quiet_day"] = not any(data["sections"].values())
     return data
 
@@ -83,8 +87,33 @@ def run_pulse(today: date) -> dict:
 # ENGINE 2 — Sensei Coaching Layer
 # ---------------------------------------------------------------------------
 
+def _recent_card_titles(limit: int = 30) -> list:
+    """Titles of the last N coaching cards, read from the daily archive,
+    so the model can avoid repeating itself. No user input involved."""
+    archive = os.path.join(os.path.dirname(__file__), "data", "archive")
+    if not os.path.isdir(archive):
+        return []
+    titles = []
+    for fname in sorted(os.listdir(archive), reverse=True)[:limit]:
+        if not fname.endswith(".json"):
+            continue
+        try:
+            with open(os.path.join(archive, fname)) as f:
+                t = (json.load(f).get("card") or {}).get("title", "").strip()
+            if t:
+                titles.append(t)
+        except Exception:
+            continue
+    return titles
+
+
 def run_coach(today: date) -> dict:
     mode = config.ROTATION[today.toordinal() % len(config.ROTATION)]
+    recent = _recent_card_titles()
+    avoid = ""
+    if recent:
+        avoid = ("\nDo NOT repeat or closely rehash any of these recent card "
+                 "topics:\n- " + "\n- ".join(recent) + "\n")
     response = client().messages.create(
         model=config.MODEL,
         max_tokens=1500,
@@ -92,6 +121,7 @@ def run_coach(today: date) -> dict:
             "role": "user",
             "content": (
                 MODE_DATE_NOTE.format(d=today.isoformat())
+                + avoid
                 + prompts.MODE_PROMPTS[mode]
             ),
         }],
