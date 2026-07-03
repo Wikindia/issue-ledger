@@ -1,13 +1,352 @@
 {
  "pulse": {
-  "items": [],
-  "quiet_day": true,
-  "one_line_read": "Pulse unavailable today — the engine hit an error; yesterday's knowledge bank is unaffected."
+  "sections": {
+   "deals": [
+    {
+     "headline": "Prism (OYO parent) files UDRHP for ₹6,650 cr all-fresh-issue IPO",
+     "source": "Medianama / Groww / Finshots",
+     "url": "https://www.medianama.com/2026/07/223-oyo-ipo-2026-zostel-dispute-risk/",
+     "significance": "One of the largest startup IPOs in Indian history moves a step closer; Zostel dispute (7% stake claim, Delhi HC hearing July 8) is live risk that could derail timeline. No OFS means zero proceeds to SoftBank, Peak XV, Airbnb et al.",
+     "pitch_angle": "Benchmark the BFSI fintech/hospitality tech valuation; track July 8 HC hearing as binary event before RHP finalisation. Banks running the book (not yet confirmed publicly) could be mandated shortly — engage promoter advisers now.",
+     "tags": {
+      "companies": [
+       "Prism (OYO)",
+       "SoftBank SVF India Holdings",
+       "Peak XV Partners",
+       "Airbnb"
+      ],
+      "deal_type": "IPO",
+      "sector": "Fintech"
+     }
+    },
+    {
+     "headline": "Fibe (Social Worth Technologies) files DRHP: ₹750 cr fresh + 4 cr OFS shares",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026",
+     "significance": "Digital-lending NBFC/fintech coming to primary markets; EarlySalary rebranded as Fibe signals maturing consumer-credit fintech looking for public capital. Size modest but sector signal matters.",
+     "pitch_angle": "NBFC-fintech IPO pipeline is building; check whether any of the tracked banks are on the panel and position for QIP follow-on or anchor outreach for larger BFSI fintech peers.",
+     "tags": {
+      "companies": [
+       "Social Worth Technologies",
+       "Fibe"
+      ],
+      "deal_type": "IPO",
+      "sector": "NBFC"
+     }
+    },
+    {
+     "headline": "Aerion Energy Solutions board approves ₹10,000 cr QIP fundraise",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026",
+     "significance": "One of the larger QIP approvals of the season; signals institutional appetite for energy/infra paper and sets a benchmark for QIP pricing in the current market.",
+     "pitch_angle": "Monitor whether BFSI-linked infra lenders (PFC, REC analogues) follow with their own QIPs; Aerion mandate could flow to one of the tracked banks.",
+     "tags": {
+      "companies": [
+       "Aerion Energy Solutions"
+      ],
+      "deal_type": "QIP",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "Airtel Money launches non-deposit NBFC; digital lending ops now live",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026",
+     "significance": "Airtel's fintech arm entering consumer credit and merchant lending via telecom network is a structural competitive event for bank-backed NBFCs and could accelerate capital-raise or M&A in the digital-lending space.",
+     "pitch_angle": "New regulated NBFC entity will need capital as it scales; early-stage equity raise or eventual IPO pathway — flag to coverage teams tracking telecom-fintech crossover.",
+     "tags": {
+      "companies": [
+       "Airtel Money",
+       "Bharti Airtel"
+      ],
+      "deal_type": "Other",
+      "sector": "NBFC"
+     }
+    },
+    {
+     "headline": "Tata Sons faces listing hurdles after RBI reinstates indirect public-funds definition",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026",
+     "significance": "RBI's restored definition of 'indirect receipt of public funds' directly blocks the easiest path to Tata Sons listing, removing one of India's most-anticipated ECM events from near-term pipeline.",
+     "pitch_angle": "Watch for Tata Sons' legal/structural response; if they restructure to comply, a fresh listing mandate could emerge — stay close to Tata group CFO advisers.",
+     "tags": {
+      "companies": [
+       "Tata Sons"
+      ],
+      "deal_type": "IPO",
+      "sector": "Market Infra"
+     }
+    }
+   ],
+   "market": [
+    {
+     "headline": "FIIs net sellers ₹312 cr cash on Jul 3; DIIs absorb with ₹1,784 cr buy",
+     "source": "5paisa / NiftyTrader",
+     "url": "https://www.5paisa.com/share-market-today/fii-dii-data",
+     "significance": "FIIs maintained a bearish cash stance and also sold Nifty futures (-2,56,900 contracts), yet strong DII buying (~5.7x FII selling) kept market stable — consistent with the Jan–May 2026 pattern of domestic absorption offsetting foreign exits.",
+     "pitch_angle": "Domestic-led market resilience supports primary-market execution; QIP book-building is less reliant on FII anchor participation — a structural tailwind for near-term issuances.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Business Standard asks: Can Sensex/Nifty hit new highs by Dec 2026?",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/",
+     "significance": "Bullish sentiment narrative building in the financial press as markets stabilise post-H1 volatility; signals improving IPO and QIP market window for H2 2026.",
+     "pitch_angle": "Use the constructive market tone to accelerate IPO/QIP timelines for clients sitting on SEBI-approved DRHPs — the window may be opening.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "India 10-yr G-Sec yield eases to 6.72% on Jul 2, down 30 bps in a month",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Falling yields reduce the cost of capital for listed companies and improve relative equity valuations, providing a positive backdrop for ECM activity and rights/QIP pricing.",
+     "pitch_angle": "Lower yields compress discount rates; use in client pitch decks to justify current valuations and the attractiveness of equity capital raises versus debt.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "FPIs net buyers of ₹324 bn Indian G-Secs since June; Bloomberg index inclusion awaited",
+     "source": "Trading Economics / GoldenPi",
+     "url": "https://goldenpi.com/blog/bond-news/indias-bond-market-in-june-2026/",
+     "significance": "Foreign bond inflows create a secondary positive for the rupee and equity sentiment even as FPIs sell equities; Bloomberg Global Aggregate Index inclusion decision is a near-term catalyst.",
+     "pitch_angle": "Bond-market FPI inflows signal improving India macro confidence — use as a talking point with foreign institutional equity investors still sitting on the sidelines.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "Goldman Sachs raises India 2026 GDP forecast to 6.8%; cuts inflation to 4.4%",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Upward macro revision from a Tier-1 global bank improves India's relative EM attractiveness and could catalyse FII equity re-entry, supporting IPO/QIP market depth.",
+     "pitch_angle": "Incorporate Goldman's revised macro view into ECM client presentations as external validation of the India growth story for global investor roadshows.",
+     "tags": {
+      "companies": [
+       "Goldman Sachs India"
+      ],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    }
+   ],
+   "macro": [
+    {
+     "headline": "RBI holds repo rate at 5.25%; governor signals no further hikes",
+     "source": "GoldenPi / Republic World",
+     "url": "https://goldenpi.com/blog/bond-news/indias-bond-market-in-june-2026/",
+     "significance": "A stable rate environment anchors cost-of-capital assumptions for equity issuances and NBFC/bank lending spreads; ECM pricing models benefit from rate visibility.",
+     "pitch_angle": "Pitch fixed-rate QCPs and NCD structures to NBFC clients who can lock in funding costs at current levels before any future cycle turn.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "Brent crude near $70/bbl after US-Iran talks ease supply fears",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Lower crude structurally reduces India's import bill, CAD, and inflation — all positive for the RBI's rate stance and the rupee, improving the macro backdrop for capital markets.",
+     "pitch_angle": "Improved CAD and lower inflation support a constructive macro narrative for India roadshows; highlight in investor marketing for upcoming IPOs.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "US 10-yr Treasury edges to 4.37% ahead of June nonfarm payrolls data",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "US payrolls print (due today/tonight IST) is the key global risk event; a strong print could re-price Fed cut expectations upward, strengthening the dollar and pressuring EM including INR.",
+     "pitch_angle": "Advise ECM clients with FII-heavy books to sequence roadshows after the payrolls print is absorbed to avoid pricing disruption from sudden dollar moves.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Small savings rates unchanged for the quarter; government keeps retail fixed-income stable",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026",
+     "significance": "Status quo on small savings removes a competitive re-pricing event for banks' CASA and term-deposit franchises, supporting net interest margin stability — positive for bank ECM stories.",
+     "pitch_angle": "NIM stability narrative for PSU and private banks makes QIP/rights stories easier to sell on earnings visibility; incorporate in bank client pitch updates.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "Nomura flags July shift by EM funds toward HK/China and Korea away from India",
+     "source": "Multibagg.ai",
+     "url": "https://www.multibagg.ai/market-pulse/articles/india-fii-flows-em-valuation-cmqbsct4l01rks60joxx6bf8i",
+     "significance": "Ongoing EM reallocation away from India (71% of large EM funds underweight India per cited data) is a structural headwind for FII-driven ECM demand, making domestic anchor and DII syndication more critical.",
+     "pitch_angle": "For large IPOs and QIPs, over-weight domestic anchor strategy (insurance, MFs) over FII-led bookbuilding to de-risk execution in a year of FII underweighting.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    }
+   ],
+   "headlines": [
+    {
+     "headline": "OYO's Zostel dispute heads to Delhi HC on July 8 — IPO timeline at risk",
+     "source": "Finshots / Medianama",
+     "url": "https://finshots.in/archive/oyo-ipo-explained/",
+     "significance": "A non-appealable court order against OYO could compel transfer of 7% equity or cash equivalent to Zostel, materially affecting pre-IPO cap table and valuation — next hearing in four days.",
+     "pitch_angle": "Monitor July 8 HC outcome as a binary event; if resolved favourably, RHP finalisation timeline accelerates and syndicate banks will need to mobilise quickly.",
+     "tags": {
+      "companies": [
+       "Prism (OYO)",
+       "Zostel"
+      ],
+      "deal_type": "IPO",
+      "sector": "Fintech"
+     }
+    },
+    {
+     "headline": "OYO 9M FY26 underlying operating profit ₹245 cr; headline PAT ₹748 cr inflated by tax credits",
+     "source": "Finshots / IndMoney",
+     "url": "https://finshots.in/archive/oyo-ipo-explained/",
+     "significance": "Accounting nuance — deferred tax credits and one-off gains flatter the headline PAT. Sophisticated investors will price on the ₹245 cr operating profit, compressing valuation headroom.",
+     "pitch_angle": "Prepare investor education material clarifying the operating vs. headline profit distinction; critical for institutional anchor conversations to avoid post-listing disappointment.",
+     "tags": {
+      "companies": [
+       "Prism (OYO)"
+      ],
+      "deal_type": "IPO",
+      "sector": "Fintech"
+     }
+    },
+    {
+     "headline": "HCLTech signs net-new BFSI tech contract running July 2026–December 2031",
+     "source": "India IPO Daily / IndiaIpo.in",
+     "url": "https://www.indiaipo.in/news/detail/averse-growth-takes-centre-stage-across-indias-bfsi-sector-report",
+     "significance": "Large multi-year BFSI technology deal announced to exchanges on July 3 — signals continued BFSI sector IT spend that supports fintech, banking, and insurance digitisation theses.",
+     "pitch_angle": "BFSI IT deal momentum supports digitisation capex narratives for bank and insurance clients considering capital raises tied to technology investment stories.",
+     "tags": {
+      "companies": [
+       "HCLTech"
+      ],
+      "deal_type": "Other",
+      "sector": "BFSI"
+     }
+    },
+    {
+     "headline": "Former SEBI Chairman Ajay Tyagi joins Prism board as Independent Director",
+     "source": "India Infoline",
+     "url": "https://www.indiainfoline.com/news/ipo/oyo-ipo-gets-sebi-approval-key-investor-takeaways-on-the-6650-crore-public-issue",
+     "significance": "High-profile governance signal ahead of IPO; adds regulatory credibility to Prism's board at a critical juncture in the IPO process.",
+     "pitch_angle": "Use as a positive governance data point in investor marketing — signals the company is taking public-market accountability seriously ahead of listing.",
+     "tags": {
+      "companies": [
+       "Prism (OYO)"
+      ],
+      "deal_type": "IPO",
+      "sector": "Fintech"
+     }
+    },
+    {
+     "headline": "India BFSI & corporate banks Q2 Nifty EPS beat at ₹185 vs. ₹170 estimate",
+     "source": "Zee Business",
+     "url": "https://www.zeebiz.com/topics/bfsi",
+     "significance": "BFSI-led earnings outperformance (9% beat) confirms that the sector's fundamentals remain sound, underpinning valuations and supporting the case for equity capital raises in banking and NBFC space.",
+     "pitch_angle": "Earnings momentum in corporate banks and BFSI makes valuation conversations for QIPs and rights issues easier — pull through the EPS beat narrative in pitch materials.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Other",
+      "sector": "Bank"
+     }
+    }
+   ],
+   "regulatory": [
+    {
+     "headline": "SEBI June 19 board: GARUDA mechanism lets AIF schemes launch in 10 working days",
+     "source": "JSA Law",
+     "url": "https://www.jsalaw.com/banking-financial-services/decoding-sebis-june-2026-board-decisions-what-sebis-june-2026-board-decisions-mean-for-indias-capital-markets/",
+     "significance": "Green-Channel AIF Rollout Upon Document Acknowledgement (GARUDA) dramatically cuts AIF launch timelines, enabling faster deployment of private capital — directly relevant for PE/VC managers and their BFSI portfolio strategies.",
+     "pitch_angle": "PE clients (True North, ChrysCapital, Kedaara, Multiples, WestBridge) can now launch new AIF schemes faster; flag the reduced timeline in conversations about new fundraises or follow-on vehicles.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "SEBI June 19 board: Buyback flexibility expanded; securitisation framework strengthened",
+     "source": "JSA Law",
+     "url": "https://www.jsalaw.com/banking-financial-services/decoding-sebis-june-2026-board-decisions-what-sebis-june-2026-board-decisions-mean-for-indias-capital-markets/",
+     "significance": "Greater buyback flexibility gives listed BFSI companies an additional capital-return lever; securitisation amendments align with RBI framework and could re-activate listed securitisation structures for NBFCs and banks.",
+     "pitch_angle": "Large-cap bank and NBFC clients can now consider buybacks more readily as an alternative to dividends — flag in capital-allocation advisory conversations.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "NBFC"
+     }
+    },
+    {
+     "headline": "SEBI (Stock Brokers) Regulations 2026 replace 1992 rules; brokers get 6-month compliance window",
+     "source": "India Law / JSA",
+     "url": "https://www.indialaw.in/blog/banking-and-finance/sebi-stock-brokers-regulations-2026/",
+     "significance": "Comprehensive regulatory reset for broking intermediaries: raises entry standards (2-yr experience), mandates resident director, and formally permits brokers to undertake other regulated financial activities under respective regulators.",
+     "pitch_angle": "Investment banks running broker subsidiaries or joint ventures must audit compliance within the 6-month window; new multi-activity permission could enable integrated financial-services models.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "RBI reinstates 'indirect public funds' definition, directly blocking Tata Sons listing path",
+     "source": "India IPO Daily",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026",
+     "significance": "Material regulatory action removing one of India's most-anticipated ECM events from the near-term pipeline; signals RBI is tightening upper-layer NBFC classification boundaries.",
+     "pitch_angle": "Monitor for Tata Sons' structural response; if they seek exemption or restructure the holding entity, a fresh listing mandate could re-emerge — keep the dialogue open with group advisers.",
+     "tags": {
+      "companies": [
+       "Tata Sons"
+      ],
+      "deal_type": "Regulatory",
+      "sector": "NBFC"
+     }
+    },
+    {
+     "headline": "Foreign bond inflows of ₹324 bn since June supported by RBI's June 5 capital-inflow measures",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "RBI's June 5 measures (tax relief, regulatory easing) have demonstrably attracted foreign capital into debt markets; Bloomberg Global Aggregate Index inclusion decision is the next catalyst with potential for another ₹10 bn+ inflow wave.",
+     "pitch_angle": "Deeper foreign participation in Indian bonds improves overall India macro perception, which is a positive read-across for FII appetite in primary equity markets.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Bank"
+     }
+    }
+   ]
+  },
+  "one_line_read": "The Indian ECM window is opening for H2 2026 — DII-led market resilience, falling G-Sec yields, and a swelling IPO pipeline (Prism/OYO, Fibe, Aerion QIP) set a constructive tone, but FII underweighting, the Tata Sons listing block, and the live Zostel-OYO court risk on July 8 are the three events to watch before pressing the button.",
+  "quiet_day": false
  },
  "card": {
   "mode": "behavioral",
   "title": "Why hire someone from a domestic franchise?",
-  "question": "A VP at Goldman or a PE associate at Warburg asks you point-blank: 'SBI Capital is a great platform, but you've only worked in a domestic context with PSU-driven mandates. Why should we hire you over someone who has already worked on a cross-border transaction or a global book-build?' How do you answer this without being defensive?",
-  "teaching": "What the interviewer is actually probing: they want to know whether you understand your own gaps, whether you have genuine conviction about the move, and crucially whether the skills transfer. They are not asking you to apologise for your background. Defensiveness or over-explanation are the two traps that kill this answer.\n\nThe structure of a strong response has three beats. First, reframe the franchise honestly rather than over-selling it. SBI Cap sits at the intersection of government policy and capital markets — the mandates you touch are not vanilla. The Bajaj Housing Finance IPO was the largest-ever Indian IPO at the time of listing. Tata Capital was a marquee NBFC that involved coordination across multiple regulators and a complex group holding structure. NSE IPO has been in regulatory limbo for years and working on it as co-manager means you navigated a deal where process risk, not just market risk, was the central variable. That is not a narrow domestic experience — it is a masterclass in institutional complexity.\n\nSecond, be explicit about what you have not done and show you know exactly what it means. You have not run a dual-listing, managed a foreign anchor allocation process, or worked with an offshore syndicate desk. Name it before they do. Interviewers respect self-awareness enormously, and it signals you have done the work to understand what their seat actually requires.\n\nThird, close on trajectory, not credentials. The point is not that your past is equivalent — it is that the analytical muscle, the client-facing reps, and the deal-process discipline you built on live ECM mandates compounds fast in a new environment. You are not asking them to take a leap of faith; you are asking them to bet on a steep learning curve that is already well underway.\n\nThe trap to avoid: listing your deals like a resume recitation. One deal, told with texture and judgment, is worth ten deal names dropped without context."
+  "question": "A VP at a bulge-bracket or a PE fund leans back and asks: 'SBI Cap is a fine house, but you've only seen Indian PSU-adjacent deal flow and a captive client base. Why should we hire you over someone from a Kotak, Axis, or a foreign bank's Mumbai desk?' How do you respond without getting defensive?",
+  "teaching": "What they're actually probing: They're not really asking you to justify SBI Cap. They're stress-testing self-awareness, intellectual honesty, and whether you can reframe a perceived weakness into a genuine edge. A candidate who gets defensive signals poor judgment. A candidate who over-apologises signals low conviction. Neither gets the offer.\n\nThe reasoning structure: Acknowledge the trade-off briefly and genuinely, pivot to what the domestic franchise specifically gave you that the foreign-bank analyst did not get, then land on a concrete example that makes the pivot credible.\n\nThe trap to avoid: Don't say 'I got great exposure to large deals.' Everyone says that. The interviewer has heard it fifty times this month.\n\nThe real edge to articulate: SBI Cap sits at the intersection of regulatory machinery and capital markets in a way no foreign bank's ECM desk does. When you ran the Bajaj Housing Finance IPO, you weren't just building a book — you were navigating NHB regulatory optics, RBI's NBFC-HFC classification concerns, and the government's affordable-housing narrative simultaneously, because the anchor investors and the regulator were both watching the pricing. A Morgan Stanley analyst on that deal as a co-manager saw the syndication mechanics. You saw the deal architecture from the origination side, including why certain disclosures were structured the way they were and how the promoter's expectations were managed against market clearing price.\n\nOn NSDL, being a co-manager meant watching a more senior bank set terms — that's actually valuable in a PE context because you learned where bankers leave money on the table and where they protect the relationship at the issuer's expense.\n\nHow to close it: 'What I haven't had is cross-border structuring or LP dynamics — and that's precisely why I'm here. I'm not pretending the gaps don't exist. But the regulatory and issuer-side depth is something I'll contribute from day one, not after a two-year learning curve.'\n\nThat last line does the work. It shows you've mapped your own knowledge honestly, which is exactly the judgment a senior hire needs to demonstrate."
  }
 }
