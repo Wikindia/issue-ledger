@@ -5,10 +5,10 @@ to tune the system. Everything else reads from here.
 
 # Model used for all engines. Sonnet is the right cost/quality point for
 # a daily job; switch to an Opus model string if you want heavier reasoning.
-MODEL = "claude-haiku-4-5"
+MODEL = "claude-sonnet-4-6"
 
 # Max web searches the daily pulse call may perform.
-PULSE_MAX_SEARCHES = 5
+PULSE_MAX_SEARCHES = 8
 
 # Timezone label used on the rendered page (cron itself is set in the
 # GitHub Actions workflow, in UTC).
