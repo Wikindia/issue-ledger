@@ -13,46 +13,69 @@ import config
 
 def pulse_prompt(today_str: str) -> str:
     return f"""Today is {today_str} (India). Search the web for TODAY'S and the
-last 24-48 hours' most significant developments in Indian equity capital
-markets, specifically:
+last 24-48 hours' developments, and build a five-section morning brief for
+an ECM banker covering Indian BFSI. Sections:
 
-1. IPO / QIP / OFS / rights-issue filings, launches, pricing, listings
-2. M&A and stake sales in Indian BFSI (banks, NBFCs, insurers, AMCs,
-   fintech, market infrastructure)
-3. Regulatory actions or consultations from {", ".join(config.REGULATORS)}
-   that affect capital raising or BFSI
-4. Notable mandates or league-table moves by these banks:
-   {", ".join(config.COMPETITOR_BANKS)}
-5. Anything material about these PE firms in India:
-   {", ".join(config.TARGET_FIRMS)}
+1. "deals" — Indian ECM and M&A deal updates: IPO / QIP / OFS / rights
+   filings, launches, pricing, listings, block deals, stake sales; notable
+   mandates by {", ".join(config.COMPETITOR_BANKS)}; and anything material
+   about these PE firms: {", ".join(config.TARGET_FIRMS)}.
+2. "market" — Indian equity market update: index moves and why, FII/DII
+   flows, sector rotation, primary-market subscription/listing performance.
+3. "macro" — macro that moves Indian capital markets: RBI policy and rates,
+   inflation, INR, crude, bond yields, relevant global cues (Fed, US yields).
+4. "headlines" — the day's key business headlines beyond the above:
+   corporate results, leadership changes, large-cap news an MD would expect
+   you to have seen.
+5. "regulatory" — actions, circulars, consultations from
+   {", ".join(config.REGULATORS)} affecting capital raising or BFSI.
 
-Select the FIVE most significant items. Significance means: an ECM banker
-covering Indian BFSI would want to know it before their morning call.
-Ignore routine price moves, analyst target changes, and recycled stories.
-
-If — and only if — genuinely nothing material happened, return an empty
-items list. Do NOT pad with noise to reach five.
+For EACH section select UP TO FIVE items, most significant first.
+Significance means: worth knowing before the morning call. Ignore routine
+price-target changes and recycled stories. An item belongs in exactly one
+section. If a section has genuinely nothing material, return it as an
+empty list — do NOT pad with noise.
 
 Respond with ONLY a JSON object, no preamble, no Markdown fences:
 
 {{
-  "items": [
-    {{
-      "headline": "one sharp line, max 15 words",
-      "source": "publication name",
-      "url": "link if available, else empty string",
-      "significance": "one line: why this matters",
-      "pitch_angle": "one line: how an ECM banker could act on this, or empty string if none",
-      "tags": {{
-        "companies": ["Company Name"],
-        "deal_type": "IPO | QIP | OFS | M&A | Regulatory | PE | Other",
-        "sector": "e.g. NBFC, Insurance, AMC, Bank, Fintech, Market Infra"
-      }}
-    }}
-  ],
-  "quiet_day": false,
+  "sections": {{
+    "deals":      [ITEM, ...],
+    "market":     [ITEM, ...],
+    "macro":      [ITEM, ...],
+    "headlines":  [ITEM, ...],
+    "regulatory": [ITEM, ...]
+  }},
   "one_line_read": "a single sentence summarising the day's tone for Indian ECM"
+}}
+
+where each ITEM is:
+{{
+  "headline": "one sharp line, max 15 words",
+  "source": "publication name",
+  "url": "link if available, else empty string",
+  "significance": "one line: why this matters",
+  "pitch_angle": "one line: how an ECM banker could act on this, or empty string if none",
+  "tags": {{
+    "companies": ["Company Name"],
+    "deal_type": "IPO | QIP | OFS | M&A | Regulatory | Macro | Market | Other",
+    "sector": "e.g. NBFC, Insurance, AMC, Bank, Fintech, Market Infra, or empty"
+  }}
 }}"""
+
+
+# Section order + display labels used by the renderer.
+SECTION_ORDER = [
+    ("deals", "Deals"),
+    ("market", "Market"),
+    ("macro", "Macro"),
+    ("headlines", "Key headlines"),
+    ("regulatory", "Regulatory"),
+]
+
+# Only durable sections feed the knowledge bank; daily market/macro
+# commentary would just be noise in six months.
+BANK_SECTIONS = ["deals", "regulatory"]
 
 
 # ---------------------------------------------------------------------------
