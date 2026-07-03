@@ -17,6 +17,7 @@ folio-numbered ledger entries, restarting per section.
 import html
 import json
 import os
+from urllib.parse import quote_plus
 from datetime import date
 
 import prompts
@@ -158,9 +159,13 @@ def _item_html(i: int, it: dict) -> str:
         meta_bits.append(esc(c))
     if tags.get("sector"):
         meta_bits.append(esc(tags["sector"]))
+    # Model-copied URLs are unreliable (often mismatched), so link the
+    # source name to a search for the exact headline instead — this always
+    # lands on the right story.
     src = esc(it.get("source", ""))
-    if it.get("url"):
-        src = f'<a href="{esc(it["url"])}" rel="noopener">{src}</a>'
+    if src and it.get("headline"):
+        q = quote_plus(f'{it["headline"]} {it.get("source","")}'.strip())
+        src = f'<a href="https://www.google.com/search?q={q}" rel="noopener">{src}</a>'
     if src:
         meta_bits.append(src)
     pitch = (f'<div class="pitch">{esc(it["pitch_angle"])}</div>'
@@ -237,8 +242,9 @@ def render_bank(today: date, bank: dict) -> None:
         notes = []
         for x in sorted(ent.get("entries", []), key=lambda x: x.get("date", ""), reverse=True):
             src = esc(x.get("source", ""))
-            if x.get("url"):
-                src = f'<a href="{esc(x["url"])}" rel="noopener">{src}</a>'
+            if src and x.get("note"):
+                q = quote_plus(x["note"][:120])
+                src = f'<a href="https://www.google.com/search?q={q}" rel="noopener">{src}</a>'
             meta = " · ".join(v for v in [x.get("deal_type"), x.get("sector")] if v)
             notes.append(f"""<div class="note"><div class="d">{esc(x.get("date",""))}</div>
 <div class="n">{esc(x.get("note",""))}
