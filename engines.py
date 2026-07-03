@@ -69,8 +69,13 @@ def run_pulse(today: date) -> dict:
         }],
     )
     data = _parse_json(_text_of(response))
-    data.setdefault("items", [])
-    data["quiet_day"] = bool(data.get("quiet_day")) or not data["items"]
+    sections = data.get("sections") or {}
+    # Guarantee every section exists as a list, capped at five items.
+    data["sections"] = {
+        key: list(sections.get(key) or [])[:5]
+        for key, _label in prompts.SECTION_ORDER
+    }
+    data["quiet_day"] = not any(data["sections"].values())
     return data
 
 
@@ -121,7 +126,12 @@ def save_bank(bank: dict) -> None:
 def run_bank_merge(pulse: dict, today: date) -> dict:
     """Feed today's items + existing slugs to the model, merge results."""
     bank = load_bank()
-    if pulse.get("quiet_day"):
+    durable_items = [
+        item
+        for key in prompts.BANK_SECTIONS
+        for item in (pulse.get("sections", {}).get(key) or [])
+    ]
+    if pulse.get("quiet_day") or not durable_items:
         return bank
 
     response = client().messages.create(
@@ -130,7 +140,7 @@ def run_bank_merge(pulse: dict, today: date) -> dict:
         messages=[{
             "role": "user",
             "content": prompts.bank_merge_prompt(
-                json.dumps(pulse["items"], ensure_ascii=False),
+                json.dumps(durable_items, ensure_ascii=False),
                 json.dumps(sorted(bank["entities"].keys())),
             ),
         }],
