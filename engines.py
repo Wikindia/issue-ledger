@@ -50,7 +50,7 @@ def _parse_json(raw: str) -> dict:
 def run_pulse(today: date) -> dict:
     response = client().messages.create(
         model=config.MODEL,
-        max_tokens=3000,
+        max_tokens=8000,
         messages=[{
             "role": "user",
             "content": prompts.pulse_prompt(today.strftime("%A, %d %B %Y")),
