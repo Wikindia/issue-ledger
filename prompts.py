@@ -13,7 +13,7 @@ import config
 
 def pulse_prompt(today_str: str) -> str:
     return f"""Today is {today_str} (India). Search the web for TODAY'S and the
-last 24-48 hours' developments, and build a five-section morning brief for
+last 24-48 hours' developments, and build a four-section morning brief for
 an ECM banker covering Indian BFSI. Sections:
 
 1. "deals" — Indian ECM and M&A deal updates: IPO / QIP / OFS / rights
@@ -24,10 +24,7 @@ an ECM banker covering Indian BFSI. Sections:
    flows, sector rotation, primary-market subscription/listing performance.
 3. "macro" — macro that moves Indian capital markets: RBI policy and rates,
    inflation, INR, crude, bond yields, relevant global cues (Fed, US yields).
-4. "headlines" — the day's key business headlines beyond the above:
-   corporate results, leadership changes, large-cap news an MD would expect
-   you to have seen.
-5. "regulatory" — actions, circulars, consultations from
+4. "regulatory" — actions, circulars, consultations from
    {", ".join(config.REGULATORS)} affecting capital raising or BFSI.
 
 For EACH section select UP TO FIVE items, most significant first.
@@ -43,7 +40,6 @@ Respond with ONLY a JSON object, no preamble, no Markdown fences:
     "deals":      [ITEM, ...],
     "market":     [ITEM, ...],
     "macro":      [ITEM, ...],
-    "headlines":  [ITEM, ...],
     "regulatory": [ITEM, ...]
   }},
   "one_line_read": "a single sentence summarising the day's tone for Indian ECM"
@@ -55,7 +51,7 @@ where each ITEM is:
   "source": "publication name",
   "url": "link if available, else empty string",
   "significance": "one line: why this matters",
-  "pitch_angle": "one line: how an ECM banker could act on this, or empty string if none",
+  "pitch_angle": "ONLY for deals and regulatory items — one line on how an ECM banker could act on this; empty string for market and macro items",
   "tags": {{
     "companies": ["Company Name"],
     "deal_type": "IPO | QIP | OFS | M&A | Regulatory | Macro | Market | Other",
@@ -69,7 +65,6 @@ SECTION_ORDER = [
     ("deals", "Deals"),
     ("market", "Market"),
     ("macro", "Macro"),
-    ("headlines", "Key headlines"),
     ("regulatory", "Regulatory"),
 ]
 
