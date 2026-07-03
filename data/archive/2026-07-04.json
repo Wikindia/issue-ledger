@@ -1,0 +1,105 @@
+{
+ "pulse": {
+  "items": [
+   {
+    "headline": "SBI Funds Management IPO set to launch week of July 13, ~₹11,400 cr OFS",
+    "source": "Whalesbook / BusinessToday",
+    "url": "https://www.businesstoday.in/markets/ipo-corner/story/july-ipo-rush-sbi-mf-zepto-manipal-health-others-lined-up-in-rs-45000-crore-fundraising-540740-2026-07-03",
+    "significance": "India's largest AMC by AUM (~₹12.5 lakh cr, 15.4% market share) going public at ~$12.3 bn valuation; pure OFS by SBI and Amundi will be the defining BFSI ECM event of H2CY26 and a sector-wide valuation benchmark against HDFC AMC, Nippon, and UTI AMC.",
+    "pitch_angle": "Any banker not already on the mandate should be running comps and building an aftermarket QIP/block-trade angle for Amundi or SBI to trim residual stakes post-lock-up.",
+    "tags": {
+     "companies": [
+      "SBI Funds Management",
+      "State Bank of India",
+      "Amundi Asset Management"
+     ],
+     "deal_type": "IPO",
+     "sector": "AMC"
+    }
+   },
+   {
+    "headline": "Adani Enterprises upsizes QIP to ₹15,000 cr; Jefferies, ICICI Sec, IIFL mandated",
+    "source": "ScanX / Exchange Filing",
+    "url": "https://scanx.trade/stock-market-news/companies/adani-enterprises-opens-qip-issue-with-floor-price-3-034-68/44544400",
+    "significance": "Issue opened July 2 at ₹3,034.68 floor price, then upsized 50% from ₹10,000 cr to ₹15,000 cr — signals strong QIB demand and is the largest single QIP in recent memory; direct league-table credit for Jefferies India, ICICI Securities, IIFL Capital, and SBI Caps.",
+    "pitch_angle": "Strong book-cover on an upsized Adani QIP validates buoyant institutional appetite — use as a market-tone anchor when pitching QIP windows to other large-cap conglomerates or infra-adjacent BFSI names.",
+    "tags": {
+     "companies": [
+      "Adani Enterprises",
+      "Jefferies India",
+      "ICICI Securities",
+      "IIFL Capital Services",
+      "SBI Capital Markets"
+     ],
+     "deal_type": "QIP",
+     "sector": "Market Infra"
+    }
+   },
+   {
+    "headline": "Fibe (Social Worth Technologies) files DRHP for ₹750 cr fresh issue + OFS; Kotak, Axis, JM Financial, DAM Capital BRLMs",
+    "source": "Business Upturn / MediaNama",
+    "url": "https://www.businessupturn.com/business/fibe-files-drhp-with-sebi-for-ipo-reports-aum-of-%E2%82%B98602-crore-in-fy26",
+    "significance": "TPG/Norwest/Eight Roads-backed digital lending NBFC with ₹8,602 cr AUM (45% CAGR) and ₹257 cr FY26 profit files for IPO — first significant pure-play digital lending NBFC to tap primary markets in this cycle; Piramal Finance among OFS sellers.",
+    "pitch_angle": "Mandate win for Kotak Investment Banking and Axis Capital in a hot fintech-NBFC IPO; competing banks should track SEBI observation timeline (typically 30 days) to assess whether a pre-IPO placement of up to ₹150 cr creates a co-investment angle.",
+    "tags": {
+     "companies": [
+      "Social Worth Technologies (Fibe)",
+      "Kotak Mahindra Capital",
+      "Axis Capital",
+      "JM Financial",
+      "DAM Capital Advisors",
+      "Piramal Finance"
+     ],
+     "deal_type": "IPO",
+     "sector": "Fintech"
+    }
+   },
+   {
+    "headline": "SEBI proposes uniform 75% investor-consent threshold for AIF related-party transactions",
+    "source": "Business Standard / TaxGuru",
+    "url": "https://www.business-standard.com/markets/news/sebi-proposes-aif-consent-rule-changes-aligns-related-party-definition-126063001109_1.html",
+    "significance": "Consultation paper (comments due July 21) replaces fragmented AIF consent rules with a single 75%-by-value threshold and expands the 'related party' definition to align with Companies Act 2013 — directly raises the governance bar for True North, ChrysCapital, Multiples, Kedaara, WestBridge and every India-focused AIF doing co-invest or follow-on structures.",
+    "pitch_angle": "PE firms managing Category II/III AIFs should audit existing LP agreements and side-letter consent mechanics before the rule crystallises; bankers advising GP-led secondaries or continuation vehicles in India should flag heightened consent risk to sponsors.",
+    "tags": {
+     "companies": [
+      "SEBI",
+      "True North",
+      "ChrysCapital",
+      "Multiples Alternate Asset Management",
+      "Kedaara Capital",
+      "WestBridge Capital",
+      "JM Financial Private Equity"
+     ],
+     "deal_type": "Regulatory",
+     "sector": "NBFC"
+    }
+   },
+   {
+    "headline": "India's H2CY26 IPO pipeline hits ₹4.71 lakh cr; 174 SEBI-approved issuers ready to launch",
+    "source": "Business Standard / Prime Database",
+    "url": "https://www.business-standard.com/markets/news/ipo-wave-builds-4-7-trn-pipeline-sets-stage-for-h2cy26-nse-jio-in-focus-126070200106_1.html",
+    "significance": "238 companies targeting ₹4.71 trillion in aggregate fundraising, with 174 already SEBI-approved for ₹2.77 trillion — Jio Platforms (₹25,000-30,000 cr, largest-ever Indian IPO), NSE, Zepto (₹8,010 cr), and Manipal Health (₹11,000 cr) are the marquee BFSI-adjacent names anchoring the pipeline.",
+    "pitch_angle": "Sheer supply volume will compress windows and force pricing discipline; bankers should help issuer clients lock anchor-book commitments early and use the Adani QIP demand signal to argue for aggressive pricing.",
+    "tags": {
+     "companies": [
+      "Jio Platforms",
+      "NSE",
+      "Zepto",
+      "Manipal Health Enterprises",
+      "TruHome Finance"
+     ],
+     "deal_type": "IPO",
+     "sector": "Market Infra"
+    }
+   }
+  ],
+  "quiet_day": false,
+  "one_line_read": "India's ECM calendar is firing on all cylinders heading into July — the SBI AMC IPO launch date is confirmed, Adani's upsized ₹15,000 cr QIP validates institutional depth, a digital-lending NBFC DRHP adds fintech flavour, SEBI's AIF consent consultation raises governance stakes for every India PE firm, and a ₹4.71 lakh cr pipeline signals the busiest primary-market half-year in the country's history."
+ },
+ "card": {
+  "mode": "behavioral",
+  "title": "Owning the 'Domestic Franchise' Question",
+  "question": "You're across the table at Goldman, Citi, or a Sequoia-style growth fund. The interviewer leans back and asks: 'SBI Cap is a great platform, but it's a domestic PSU-backed bank. Why should we hire you over someone from a Morgan Stanley India or a Kotak?' What is the interviewer actually probing, and how do you structure a genuinely strong answer?",
+  "teaching": "What they're really asking is: can you separate signal from noise about your own background, and do you know exactly what you bring versus what you're missing? They are not looking for defensiveness or over-selling. They want intellectual honesty plus a concrete value proposition.\n\nThe trap most candidates fall into is one of two failure modes. First, they apologise — 'I know SBI Cap isn't bulge bracket, but...' — which immediately signals insecurity. Second, they over-sell the brand — 'SBI Cap is the number one domestic ECM franchise' — which sounds hollow to someone who has seen the league tables.\n\nThe structure that works has three beats. Beat one: own your edge specifically. SBI Cap's distribution muscle and PSU relationships mean you sat on deals that foreign banks don't access at origination. The Bajaj Housing Finance IPO and the Tata Capital IPO are not generic mandates — BFSI ECM in India right now is the most active vertical in the market, and you built a point-of-view on capital structure, regulatory constraints under RBI, and investor appetite for NBFC paper that a generalist at a foreign bank simply hasn't stress-tested. Beat two: name what you haven't had. You haven't run a cross-border book, you haven't worked with a global syndicate desk pricing against the London open, and you know it. Naming your own gap before they do builds credibility faster than anything else. Beat three: connect the gap to the reason you're sitting there — you are specifically seeking that cross-border layer, and you have the BFSI origination depth to contribute from day one while you build it.\n\nThe illustrative sketch: 'On Tata Capital we were pricing a debut issuer from a group everyone knows but a subsidiary with no listed comparables — I had to build the peer set from scratch using HDFC Bank subsidiaries and Bajaj Finserv's lending co. That's the muscle I bring. What I want to add is how a global desk would have hedged that book against EM outflows on day two of the roadshow.' That one sentence shows self-awareness, technical depth, and genuine hunger — which is exactly what the interviewer writes down."
+ }
+}
