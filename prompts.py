@@ -46,6 +46,20 @@ RECENCY RULES — these override everything else:
   return it as an empty list. An honest empty section is correct; a stale
   item is a failure. Never pad.
 
+ACCURACY RULES — equally non-negotiable:
+- Company names, people's names, deal sizes, and dates must be copied
+  EXACTLY as they appear in the search results. NEVER paraphrase, clean
+  up, guess, or reconstruct a name from memory. A fabricated company name
+  is the worst possible error this brief can make.
+- "source" must be the actual publication whose result you read (e.g.
+  Economic Times, Mint, Moneycontrol, Business Standard, Reuters,
+  Bloomberg, exchange filing). Never invent a publication name.
+- If you notice a name or figure differs across sources, use the version
+  from the most authoritative source (exchange filing > major financial
+  daily > aggregator) — or drop the item if you cannot resolve it.
+- Before finalising your answer, re-check every company name in your
+  items against the search results one more time.
+
 Respond with ONLY a JSON object, no preamble, no Markdown fences:
 
 {{
