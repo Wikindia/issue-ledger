@@ -1,0 +1,116 @@
+{
+ "entities": {
+  "adani-enterprises": {
+   "name": "Adani Enterprises",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "Adani Enterprises executed a QIP at a floor price of ₹3,034.68 per share in July 2026, serving as a large-cap conglomerate benchmark for institutional ECM appetite during a broader market recovery phase.",
+     "deal_type": "QIP",
+     "sector": "Other",
+     "source": "voice.lapaas.com",
+     "url": "https://voice.lapaas.com/pb-fintech-stake-sale"
+    }
+   ]
+  },
+  "prudential": {
+   "name": "Prudential",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "Prudential received IRDAI approval in July 2026 to commence a joint venture health insurance operation with HCL, establishing it as a new institutionally-backed private health insurer in India with medium-term growth capital and potential IPO requirements.",
+     "deal_type": "M&A",
+     "sector": "Insurance",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026"
+    }
+   ]
+  },
+  "hcl-health-insurance": {
+   "name": "HCL Health Insurance",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "HCL Health Insurance is a greenfield private health insurer established via a joint venture with Prudential, receiving IRDAI regulatory approval in July 2026; the entity is expected to require growth equity rounds and is a prospective IPO candidate over the medium term.",
+     "deal_type": "M&A",
+     "sector": "Insurance",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026"
+    }
+   ]
+  },
+  "social-worth-technologies": {
+   "name": "Social Worth Technologies (Fibe / EarlySalary)",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "Social Worth Technologies, the parent entity of the Fibe (formerly EarlySalary) lending-tech platform, filed a DRHP with SEBI in July 2026 for a ₹750 crore fresh-issue IPO, with an OFS component indicating PE and early-stage investor exit intent in the NBFC-fintech segment.",
+     "deal_type": "IPO",
+     "sector": "Fintech",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
+    }
+   ]
+  },
+  "pb-fintech": {
+   "name": "PB Fintech",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "PB Fintech, the listed insurance-tech and lending marketplace platform, saw a 2.6% block sale in July 2026, providing secondary price-discovery data for institutional demand depth in the BFSI fintech segment at prevailing valuations.",
+     "deal_type": "OFS",
+     "sector": "Fintech",
+     "source": "voice.lapaas.com",
+     "url": "https://voice.lapaas.com/pb-fintech-stake-sale"
+    }
+   ]
+  },
+  "prism-oyo-parent": {
+   "name": "Prism (Oyo Parent)",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "Prism, the holding entity of Oyo, filed a UDRHP-I with SEBI in July 2026 for an all-fresh-issue mainboard IPO of ₹6,650 crore aimed primarily at debt reduction; as one of the largest near-term primary market filings it is a significant QIB bandwidth consumer with implications for concurrent BFSI deal timing.",
+     "deal_type": "IPO",
+     "sector": "Other",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
+    }
+   ]
+  },
+  "sebi": {
+   "name": "SEBI",
+   "type": "Regulator",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "SEBI proposed regulations in mid-2026 restricting celebrity endorsements for investment schemes, drawing industry pushback; the outcome of this consultation is expected to reshape retail IPO marketing strategies and affect intermediary distribution models for primary issuances.",
+     "deal_type": "Regulatory",
+     "sector": "Market Infra",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026"
+    }
+   ]
+  },
+  "rbi": {
+   "name": "Reserve Bank of India (RBI)",
+   "type": "Regulator",
+   "entries": [
+    {
+     "date": "2026-07-04",
+     "note": "RBI Governor Sanjay Malhotra affirmed in July 2026 that India will not raise its 4% inflation target, reinforcing a credible long-term monetary framework that supports stable long-end bond yields and provides a predictable pricing environment for AT1, Tier-2, and long-dated sub-debt issuances by BFSI entities.",
+     "deal_type": "Regulatory",
+     "sector": "Bank",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield"
+    }
+   ]
+  }
+ }
+}
