@@ -61,6 +61,14 @@
      "sector": "Fintech",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "Social Worth Technologies, the parent company of consumer-lending fintech brand Fibe, filed a DRHP with SEBI in mid-2026 for a ₹750 cr fresh-issue IPO (plus an OFS component), with fresh proceeds earmarked primarily for capital infusion into its lending subsidiary ESPL; the filing marked one of the first major digital consumer-lending NBFC IPO filings of the FY27 season.",
+     "deal_type": "IPO",
+     "sector": "Fintech",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-1st-july-2026"
     }
    ]
   },
@@ -97,6 +105,14 @@
      "sector": "Other",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "Prism, the renamed parent entity of Oyo, filed an Updated Draft Red Herring Prospectus (UDRHP-I) with SEBI in July 2026 for a ₹6,650 cr entirely fresh-issue IPO, with proceeds designated for debt repayment; the filing followed an earlier DRHP approval and represents a large-cap consumer-tech primary market test.",
+     "deal_type": "IPO",
+     "sector": "Other",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
     }
    ]
   },
@@ -111,6 +127,14 @@
      "sector": "Market Infra",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "SEBI granted approval for the SBI Funds Management IPO in 2026 and introduced the SEBI (Mutual Funds) Regulations 2026, effective April 1, 2026, which introduced fee-compression measures flagged as a material profitability risk factor in the SBI MF prospectus and applicable across the Indian AMC industry.",
+     "deal_type": "Regulatory",
+     "sector": "AMC",
+     "source": "sahi.com / cleartax.in / Groww",
+     "url": "https://www.sahi.com/blogs/sbi-funds-management-ipo"
     }
    ]
   },
@@ -139,6 +163,14 @@
      "sector": "AMC",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "SBI Funds Management, India's largest AMC by AUM (₹16.32 tn as of early 2026), completed a ₹11,416 cr IPO in July 2026 via a pure OFS of ~20.37 cr shares, with SBI divesting 6.3% and Amundi India Holding divesting 3.7%, targeting a valuation of approximately $12.3 bn; the IPO received SEBI approval and listed on July 22, 2026.",
+     "deal_type": "IPO",
+     "sector": "AMC",
+     "source": "Whalesbook / indiaipo.in / sahi.com",
+     "url": "https://www.whalesbook.com/news/English/ipo/SBI-Funds-Management-Plans-indian-rupee11416-Crore-IPO-for-July-Listing/6a462908bfe8447456fa9ab0"
     }
    ]
   },
@@ -153,6 +185,14 @@
      "sector": "Bank",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "State Bank of India, as the majority promoter of SBI Funds Management, divested a 6.3% stake via the SBI Funds Management IPO in July 2026, representing one of the largest promoter OFS transactions in the Indian AMC sector.",
+     "deal_type": "OFS",
+     "sector": "Bank",
+     "source": "Whalesbook / indiaipo.in / sahi.com",
+     "url": "https://www.whalesbook.com/news/English/ipo/SBI-Funds-Management-Plans-indian-rupee11416-Crore-IPO-for-July-Listing/6a462908bfe8447456fa9ab0"
     }
    ]
   },
@@ -167,6 +207,14 @@
      "sector": "AMC",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "Amundi India Holding, the Indian holding vehicle of French asset manager Amundi, divested a 3.7% stake in SBI Funds Management via the July 2026 IPO OFS, reducing its exposure in India's largest AMC.",
+     "deal_type": "OFS",
+     "sector": "AMC",
+     "source": "Whalesbook / indiaipo.in / sahi.com",
+     "url": "https://www.whalesbook.com/news/English/ipo/SBI-Funds-Management-Plans-indian-rupee11416-Crore-IPO-for-July-Listing/6a462908bfe8447456fa9ab0"
     }
    ]
   },
@@ -195,6 +243,20 @@
      "sector": "Other",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026"
+    }
+   ]
+  },
+  "hdfc-bank": {
+   "name": "HDFC Bank",
+   "type": "Bank",
+   "entries": [
+    {
+     "date": "2026-07-06",
+     "note": "HDFC Bank reported gross advances of ₹30.61 lakh crore (+15.4% YoY) and deposits of +14.7% YoY in its Q1 FY27 business update, demonstrating sustained post-merger balance sheet momentum and serving as a key sentiment indicator for BFSI sector primary issuance windows.",
+     "deal_type": "Other",
+     "sector": "Bank",
+     "source": "Upstox / indiaipo.in",
+     "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-asian-market-cues-fii-activity-key-things-to-know-before-markets-open-on-july-6/article-196398/"
     }
    ]
   }
