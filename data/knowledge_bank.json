@@ -53,6 +53,14 @@
      "sector": "Fintech",
      "source": "indiaipo.in",
      "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "Social Worth Technologies, the parent entity of consumer-credit fintech brands Fibe and EarlySalary, filed a DRHP in mid-2026 for an IPO comprising a ₹750 crore fresh issue plus an OFS of up to 4 crore equity shares, marking one of the first digital-lending NBFC listings under the tightened NBFC regulatory regime.",
+     "deal_type": "IPO",
+     "sector": "Fintech",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
     }
    ]
   },
@@ -77,6 +85,14 @@
     {
      "date": "2026-07-04",
      "note": "Prism, the holding entity of Oyo, filed a UDRHP-I with SEBI in July 2026 for an all-fresh-issue mainboard IPO of ₹6,650 crore aimed primarily at debt reduction; as one of the largest near-term primary market filings it is a significant QIB bandwidth consumer with implications for concurrent BFSI deal timing.",
+     "deal_type": "IPO",
+     "sector": "Other",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026"
+    },
+    {
+     "date": "2026-07-06",
+     "note": "Prism, the holding entity of hospitality-tech platform Oyo, re-filed an Updated Draft Red Herring Prospectus (UDRHP-I) in mid-2026 for an all-fresh-issue IPO of ₹6,650 crore, its second SEBI filing after an earlier DRHP approval had lapsed; the entirely fresh-issue structure indicates capital will be deployed into operations rather than promoter liquidity.",
      "deal_type": "IPO",
      "sector": "Other",
      "source": "indiaipo.in",
@@ -109,6 +125,76 @@
      "sector": "Bank",
      "source": "Trading Economics",
      "url": "https://tradingeconomics.com/india/government-bond-yield"
+    }
+   ]
+  },
+  "sbi-funds-management": {
+   "name": "SBI Funds Management",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-06",
+     "note": "SBI Funds Management completed an IPO in July 2026 (launching week of July 13, listing July 22) in which State Bank of India divested a 6.3% stake and Amundi divested 3.7%, targeting a valuation of approximately ₹1.17 trillion; the deal was structured as a pure OFS with no fresh-issue component and ranked as the largest AMC IPO in Indian primary-market history at the time.",
+     "deal_type": "IPO",
+     "sector": "AMC",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    }
+   ]
+  },
+  "state-bank-of-india": {
+   "name": "State Bank of India",
+   "type": "Bank",
+   "entries": [
+    {
+     "date": "2026-07-06",
+     "note": "State Bank of India is the majority promoter of SBI Funds Management and divested a 6.3% stake via the SBI Funds Management IPO in July 2026, reducing its holding while retaining majority ownership of one of India's largest asset managers.",
+     "deal_type": "OFS",
+     "sector": "Bank",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    }
+   ]
+  },
+  "amundi": {
+   "name": "Amundi",
+   "type": "Other",
+   "entries": [
+    {
+     "date": "2026-07-06",
+     "note": "Amundi, the French asset-management group, holds a strategic minority stake in SBI Funds Management and divested 3.7% via the July 2026 IPO, participating in the largest AMC listing in Indian primary-market history.",
+     "deal_type": "OFS",
+     "sector": "AMC",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    }
+   ]
+  },
+  "laser-power-infra": {
+   "name": "Laser Power & Infra",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-06",
+     "note": "Laser Power & Infra, a Kolkata-based infrastructure issuer, downsized its IPO to ₹742 crore (₹542 crore fresh issue plus ₹200 crore OFS) and opened for subscription July 9–13, 2026; the size reduction from an earlier larger filing and explicit promoter objective to retire ₹490 crore of debt signal deleveraging as the primary use of proceeds.",
+     "deal_type": "IPO",
+     "sector": "Other",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026"
+    }
+   ]
+  },
+  "aerion-energy-solutions": {
+   "name": "Aerion Energy Solutions",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-06",
+     "note": "Aerion Energy Solutions received board approval in July 2026 to raise up to ₹10,000 crore via a Qualified Institutional Placement, one of the larger QIP board mandates seen in the Indian market that year, with proceeds intended for energy-transition capital deployment.",
+     "deal_type": "QIP",
+     "sector": "Other",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026"
     }
    ]
   }

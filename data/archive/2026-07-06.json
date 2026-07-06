@@ -1,0 +1,224 @@
+{
+ "pulse": {
+  "sections": {
+   "deals": [
+    {
+     "headline": "SBI Funds Management $1.2 bn IPO launches week of July 13, lists July 22",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026",
+     "significance": "Largest AMC IPO in the pipeline: SBI offloads 6.3% and Amundi sells 3.7%, targeting a ₹1.17 trillion valuation — a landmark primary-market event for India's asset-management sector.",
+     "pitch_angle": "ECM bankers should be positioned to advise anchor and QIB allocation strategy and watch for secondary read-across QIP/OFS opportunities in other listed AMCs post-listing.",
+     "tags": {
+      "companies": [
+       "SBI Funds Management",
+       "State Bank of India",
+       "Amundi"
+      ],
+      "deal_type": "IPO",
+      "sector": "AMC"
+     }
+    },
+    {
+     "headline": "Social Worth Technologies (Fibe/EarlySalary) files DRHP for ₹750 cr fresh-issue IPO",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026",
+     "significance": "Fintech NBFC lender entering public markets with a ₹750 crore fresh issue plus OFS of up to 4 crore equity shares — tests appetite for consumer-credit fintechs at a time of tightening NBFC norms.",
+     "pitch_angle": "Monitor BRLM mandate allocation; rival digital-lending NBFCs (e.g. KreditBee, MoneyView) may accelerate their own DRHP filings if Fibe IPO receives strong investor reception.",
+     "tags": {
+      "companies": [
+       "Social Worth Technologies",
+       "Fibe"
+      ],
+      "deal_type": "IPO",
+      "sector": "Fintech"
+     }
+    },
+    {
+     "headline": "Laser Power & Infra cuts IPO to ₹742 cr; opens July 9, closes July 13",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-5th-july-2026",
+     "significance": "Kolkata-based issuer downsizes (₹542 cr fresh + ₹200 cr OFS) and accelerates timeline, signalling promoter urgency to deleverage ₹490 cr debt — size reduction could indicate demand-side pricing discipline.",
+     "pitch_angle": "Watch subscription levels July 9–13 as an early-week sentiment gauge for mid-market IPOs; use outcome to calibrate pricing conversations with pipeline issuers.",
+     "tags": {
+      "companies": [
+       "Laser Power & Infra"
+      ],
+      "deal_type": "IPO",
+      "sector": "Other"
+     }
+    },
+    {
+     "headline": "Prism (Oyo parent) files UDRHP-I for ₹6,650 cr all-fresh-issue IPO",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-1st-july-2026",
+     "significance": "Updated draft papers re-filed after prior DRHP approval; entirely fresh issue of shares worth ₹6,650 cr signals large capital raise to fund operations — a closely watched hospitality-tech listing.",
+     "pitch_angle": "Competitor hospitality and travel-tech platforms should be flagged to PE sponsors as potential IPO or secondary block candidates given Oyo's renewed public-market push.",
+     "tags": {
+      "companies": [
+       "Prism"
+      ],
+      "deal_type": "IPO",
+      "sector": "Other"
+     }
+    },
+    {
+     "headline": "Aerion Energy Solutions board approves ₹10,000 cr QIP fundraising",
+     "source": "indiaipo.in",
+     "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-updates-2nd-july-2026",
+     "significance": "One of the larger QIP board approvals in recent weeks; signals continued appetite among listed corporates to use equity markets for large-scale capital deployment in the energy transition.",
+     "pitch_angle": "Active BRLM mandate opportunity; ECM desks should engage on pricing strategy and anchor investor identification given the ₹10,000 cr size.",
+     "tags": {
+      "companies": [
+       "Aerion Energy Solutions"
+      ],
+      "deal_type": "QIP",
+      "sector": "Other"
+     }
+    }
+   ],
+   "market": [
+    {
+     "headline": "Sensex +261 pts Friday; opens +288 pts Monday on firm Asian cues",
+     "source": "HDFCSky / BusinessToday",
+     "url": "https://hdfcsky.com/news/stock-market-today-july-6-2026-sensex-nifty-open-higher-tracking-firm-asian-cues-oil-dips-as-iran-mourning-continues",
+     "significance": "Indian markets logged a third straight session of gains with Nifty 50 at 24,270 on Friday; Monday open adds another 0.34%, driven by HDFC Bank, ICICI Bank, Axis Bank, SBI, BEL and Bharti Airtel.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "HDFC Bank",
+       "ICICI Bank",
+       "Axis Bank",
+       "State Bank of India",
+       "Bharti Airtel"
+      ],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "FII net buyers ₹1,355 cr cash on July 5; DII net sellers ₹1,954 cr",
+     "source": "5paisa",
+     "url": "https://www.5paisa.com/share-market-today/fii-dii-data",
+     "significance": "FII cash buying continues for a multi-day streak even as DIIs turn net sellers, suggesting domestic profit-taking at current levels while foreign conviction holds; divergence warrants monitoring.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "IT and pharma lead Monday's sectoral gains; banking and energy lag",
+     "source": "HDFCSky",
+     "url": "https://hdfcsky.com/news/stock-market-today-july-6-2026-sensex-nifty-open-higher-tracking-firm-asian-cues-oil-dips-as-iran-mourning-continues",
+     "significance": "Sector rotation away from banks and energy into defensives (IT, pharma) and realty signals risk-adjusted repositioning ahead of Q1 FY27 earnings season — Bank Nifty underperformance bears watching for BFSI ECM sentiment.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "Kotak Mahindra Bank top Nifty 50 bank loser, down 2.51% on Monday open",
+     "source": "HDFCSky",
+     "url": "https://hdfcsky.com/news/stock-market-today-july-6-2026-sensex-nifty-open-higher-tracking-firm-asian-cues-oil-dips-as-iran-mourning-continues",
+     "significance": "Kotak slipping to ₹386.80 against Nifty's broad-based gains flags stock-specific pressure in private banking; relevant for any Kotak-linked capital-raise or block-deal timing discussions.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "Kotak Mahindra Bank"
+      ],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "Nifty Midcap 100 +0.24%, Next 50 +0.21%; breadth positive across board Monday",
+     "source": "HDFCSky",
+     "url": "https://hdfcsky.com/news/stock-market-today-july-6-2026-sensex-nifty-open-higher-tracking-firm-asian-cues-oil-dips-as-iran-mourning-continues",
+     "significance": "Positive breadth in mid- and small-cap indices supports primary-market risk appetite, providing constructive backdrop for mid-market IPO subscriptions opening this week.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    }
+   ],
+   "macro": [
+    {
+     "headline": "India 10-yr G-Sec yield at 6.72%, near 15-week low; crude ~$70/bbl",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Easing crude oil prices and sustained FPI bond buying have pushed 10-year yields to multi-month lows, compressing cost-of-capital assumptions — positive read-across for ECM valuations and IPO pricing.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "RBI Governor Malhotra: India unlikely to raise inflation target",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Dovish signal on the inflation framework anchors bond market expectations and reduces rate-hike risk premium, supporting equity multiples and primary market valuations.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Brent crude ~$70/bbl after US-Iran peace talks ease supply fears",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Lower crude reduces India's import bill, eases INR pressure and dampens imported inflation — a net positive for RBI rate trajectory and India's current-account deficit outlook.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "RBI June 2026 measures to attract ~$40 bn inflows via FCNR(B) subsidy",
+     "source": "MUFG Research",
+     "url": "https://www.mufgresearch.com/fx/india-shoring-up-the-indian-rupee-rbi-june-2026-measures-8-june-2026/",
+     "significance": "RBI fully subsidising FX hedging costs on fresh 3–5 year FCNR(B) deposits till September 30, 2026, aims to shore up INR — near-term INR stability supportive of FPI equity inflows and IPO foreign-tranche pricing.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Goldman Sachs forecasts $10 bn additional FPI inflows into India G-Secs in 2026",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Structural FPI bond inflow forecast underpins INR stability and signals broader EM allocation shift toward India — positive for equity risk appetite and IPO anchor demand from global funds.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "Goldman Sachs"
+      ],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    }
+   ],
+   "regulatory": []
+  },
+  "one_line_read": "India ECM opens the week with constructive tailwinds — Nifty at multi-session highs, 10-yr yields near 15-week lows, and the ₹1.17 trillion SBI Funds Management IPO set to launch July 13 — but BFSI bank stocks underperform and DII profit-taking flags selective caution at current levels.",
+  "quiet_day": false
+ },
+ "card": {
+  "mode": "technical",
+  "title": "Anchor Allocation Strategy: Why Over-Subscribing Anchors Can Hurt You",
+  "question": "In an IPO, if institutional demand is very strong, should you maximise the anchor allocation to 60% of the QIB portion to signal quality and lock in big names? Walk through the real trade-offs an ECM banker thinks about when setting anchor size.",
+  "teaching": "The instinct is wrong, and here is why.\n\nSEBI allows anchors to take up to 60% of the QIB tranche. But maximising that number is not automatically a good idea — it is a tool you calibrate, not a lever you slam to maximum.\n\nFirst, understand the mechanics. Anchors are allotted one day before opening, at a fixed price equal to the final IPO price. They have a 30-day lock-in. Because the price is known in advance, they are a price-discovery anchor, not a price-setting one. Their main job is to signal to retail and HNI investors that serious, credentialed money has already committed.\n\nNow the trade-offs. If you park 60% of the QIB book with anchors, you leave only 40% for the book-build proper. That sounds fine until you realise QIB demand in the live book is what creates price tension. Mutual funds and FIIs bidding hard in the open book is what drives oversubscription multiples and justifies the valuation. If the best names are already locked up as anchors, your visible oversubscription looks thinner, which can spook HNI and retail. The optics matter enormously in an Indian IPO.\n\nSecond, anchor quality beats anchor quantity. Fifteen anchors including sovereign wealth funds and tier-1 domestic mutual funds does more for the book than 30 anchors padded with insurance companies filling allocation quotas. In the Bajaj Housing Finance IPO, the anchor book was curated specifically to include marquee domestic and foreign names — the point was credibility, not coverage.\n\nThird, there is a recycling risk. Anchors can sell from day 31. If you have crammed in anchors who are lukewarm on the story, you get a wave of selling the moment lock-in lifts, which damages the aftermarket and your own franchise reputation with the issuer.\n\nThe practical answer: for a high-quality BFSI IPO with genuine institutional demand, anchor at 40-50% of the QIB tranche, curate ruthlessly for name quality, and let the live book show genuine heat. That combination — strong anchors plus a visibly oversubscribed open book — is what drives a clean listing."
+ }
+}
