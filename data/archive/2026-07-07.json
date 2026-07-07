@@ -1,0 +1,189 @@
+{
+ "pulse": {
+  "sections": {
+   "deals": [
+    {
+     "headline": "Govt sells 5.04% Cochin Shipyard stake via two-day OFS from July 7",
+     "source": "Sahi",
+     "url": "https://www.sahi.com/",
+     "significance": "First major government OFS of the week; sets the tone for near-term supply and tests market appetite for PSU paper.",
+     "pitch_angle": "Track floor-price discovery and day-1 subscription to gauge institutional appetite; use as a data point for upcoming PSU ECM mandates.",
+     "tags": {
+      "companies": [
+       "Cochin Shipyard"
+      ],
+      "deal_type": "OFS",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "NSE files DRHP for long-awaited IPO after SEBI no-objection",
+     "source": "Reuters",
+     "url": "https://zerodha.com/ipo/411840/national-stock-exchange/",
+     "significance": "Potentially one of India's largest-ever IPOs; NSE's board had approved the IPO on February 6 following SEBI's no-objection certificate.",
+     "pitch_angle": "Largest market-infrastructure IPO in Indian history; every ECM desk should be tracking book-runner mandate allocation and anchor strategy.",
+     "tags": {
+      "companies": [
+       "National Stock Exchange of India Limited"
+      ],
+      "deal_type": "IPO",
+      "sector": "Market Infra"
+     }
+    }
+   ],
+   "market": [
+    {
+     "headline": "Sensex rises 0.75% to 78,351 on July 6, highest since early May",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/stock-market",
+     "significance": "Third straight session of gains; index up 6.56% over the past month, signalling a sustained recovery that could revive primary-market windows.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Bajaj Finance Q1 FY27 strong AUM and disbursement growth lifts BFSI sentiment",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/stock-market",
+     "significance": "Bajaj Finance rose 1.4% on robust Q1 FY27 operational performance; positive read-across for NBFC valuations and upcoming BFSI capital raises.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "Bajaj Finance"
+      ],
+      "deal_type": "Market",
+      "sector": "NBFC"
+     }
+    },
+    {
+     "headline": "Axis Bank and SBI among top Sensex drags on July 6, down 0.7–1.6%",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/stock-market",
+     "significance": "Large private and public sector banks underperformed on the day, suggesting sector rotation away from banking even as broader market rallied.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "Axis Bank",
+       "State Bank of India"
+      ],
+      "deal_type": "Market",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "FII cash buying streak continues; FII bought ₹1,355 Cr cash on last session",
+     "source": "NiftyTrader",
+     "url": "https://www.niftytrader.in/fii-dii-data",
+     "significance": "Sustained FII cash inflows support market breadth, though futures positioning (put buying, call shorting) signals hedged optimism rather than outright bullishness.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    }
+   ],
+   "macro": [
+    {
+     "headline": "India 10Y bond yield at 6.72% on July 3; down 29 bps over past month",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "A 29 bps compression over the month materially lowers cost of capital and is the single most important ECM tail-wind right now.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "RBI keeps repo rate at 5.25% with neutral stance at June 5 meeting",
+     "source": "MUFG Research",
+     "url": "https://www.mufgresearch.com/fx/india-shoring-up-the-indian-rupee-rbi-june-2026-measures-8-june-2026/",
+     "significance": "RBI on hold with neutral stance preserves conducive liquidity backdrop for equity issuances; MUFG forecasts 50 bps of hikes to 5.75% as a tail risk.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "RBI fully subsidises FX hedging costs for fresh 3–5 year FCNR(B) deposits till Sep 30",
+     "source": "MUFG Research",
+     "url": "https://www.mufgresearch.com/fx/india-shoring-up-the-indian-rupee-rbi-june-2026-measures-8-june-2026/",
+     "significance": "RBI measures could bring up to US$40bn of flows, stabilising USD/INR near-term and reducing imported inflation risk; positive for INR-denominated issuance.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "Brent crude near $70/barrel after US-Iran talks ease supply-disruption fears",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Lower crude reduces India's import bill, supports INR, and eases inflation pressure — all positives for equity risk appetite and primary market activity.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Goldman Sachs forecasts $10bn FII inflows into Indian govt bonds in 2026",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Anticipated bond inflows bolster INR stability and compress yields, creating a supportive backdrop for concurrent equity capital-raising activity.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [
+       "Goldman Sachs"
+      ],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    }
+   ],
+   "regulatory": [
+    {
+     "headline": "SEBI issues circular on handling of clients' unpaid securities by trading members",
+     "source": "SEBI",
+     "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html",
+     "significance": "Clarifies obligations of trading members on unpaid client securities; tightens settlement discipline and may affect short-selling and margin financing practices at brokers.",
+     "pitch_angle": "Review implications for ECM book-building settlement mechanics and any impact on anchor or QIB allocation processes that involve deferred payment.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "RBI allows banks to lend to SEBI-registered REITs and InvITs from April 2027",
+     "source": "Oliveboard / RBI",
+     "url": "https://www.oliveboard.in/blog/rbi-circulars/",
+     "significance": "Expands bank lending universe to include REIT and InvIT vehicles, potentially unlocking new refinancing pathways and improving liquidity in alternative asset classes.",
+     "pitch_angle": "Proactively engage REIT and InvIT sponsors on pre-positioning capital structures ahead of the April 2027 go-live; dovetails with ECM rights issue or follow-on planning.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    }
+   ]
+  },
+  "one_line_read": "Indian ECM opens the week on a constructive note — the NSE IPO DRHP filing and a government OFS headline a thin but positive deal calendar, underpinned by a Sensex at a seven-week high, a 29-bps bond-yield compression and softening crude.",
+  "quiet_day": false
+ },
+ "card": {
+  "mode": "behavioral",
+  "title": "Walk Me Through Your Best Deal",
+  "question": "At a foreign bank or PE interview, 'walk me through your best deal' is almost certainly coming. What is the interviewer actually measuring — and how should someone from a domestic ECM franchise structure the answer to avoid the traps?",
+  "teaching": "The interviewer is not asking for a deal timeline. They are asking three things at once: Can you own a narrative under pressure? Do you understand the transaction's commercial logic, or did you just execute tasks? And how do you think relative to someone from Goldman or Citi?\n\nThe trap almost everyone falls into is giving a deal biography — 'we filed the DRHP in March, SEBI gave observations in June, we priced in September.' That is a project manager's answer. The interviewer stops listening around sentence three.\n\nThe structure that actually works is: Problem → Stakes → What You Specifically Did → The Insight → Outcome. Every sentence should make the listener lean forward, not nod politely.\n\nTake Bajaj Housing Finance. The commercial problem was interesting: you are pricing the IPO of an HFC in a rate cycle where the market has already been brutal to similar names, yet the parent needs to hit a minimum public float to comply with RBI's upper-layer NBFC norms. That tension — regulatory deadline on one side, market sentiment on the other — is what a good interviewer wants to hear you articulate. It shows you understood why the deal had to happen and what the real risk was.\n\nThen anchor something you personally did: maybe you built the comparable pricing analysis distinguishing pure-play HFCs from diversified NBFCs, or you stress-tested the grey market premium signals against anchor allocation patterns. Be specific. 'I worked on the model' is worthless. 'I rebuilt the GNPA roll-forward to separate the developer loan book because blended NPA was misleading comps' is a line people remember.\n\nThe insight is your edge — one thing you understood about this deal that a generalist wouldn't. The outcome is brief: oversubscribed X times, listed at Y% premium, regulatory box ticked.\n\nKeep the whole thing under two and a half minutes. If you cannot explain why a deal was hard in thirty seconds, you do not own the story yet."
+ }
+}

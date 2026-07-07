@@ -135,6 +135,14 @@
      "sector": "AMC",
      "source": "sahi.com / cleartax.in / Groww",
      "url": "https://www.sahi.com/blogs/sbi-funds-management-ipo"
+    },
+    {
+     "date": "2026-07-07",
+     "note": "SEBI issued a circular in July 2026 tightening the obligations of trading members with respect to clients' unpaid securities, reinforcing settlement discipline and carrying potential implications for margin financing, short-selling, and deferred-payment mechanics in IPO anchor and QIB allocation processes.",
+     "deal_type": "Regulatory",
+     "sector": "Market Infra",
+     "source": "SEBI",
+     "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html"
     }
    ]
   },
@@ -149,6 +157,14 @@
      "sector": "Bank",
      "source": "Trading Economics",
      "url": "https://tradingeconomics.com/india/government-bond-yield"
+    },
+    {
+     "date": "2026-07-07",
+     "note": "The RBI announced in 2026 that banks will be permitted to lend directly to SEBI-registered REITs and InvITs effective April 2027, expanding the bank lending universe into alternative asset vehicles and creating new refinancing pathways that sponsors can pre-position for through capital structure planning and follow-on ECM activity.",
+     "deal_type": "Regulatory",
+     "sector": "Market Infra",
+     "source": "Oliveboard / RBI",
+     "url": "https://www.oliveboard.in/blog/rbi-circulars/"
     }
    ]
   },
@@ -257,6 +273,34 @@
      "sector": "Bank",
      "source": "Upstox / indiaipo.in",
      "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-asian-market-cues-fii-activity-key-things-to-know-before-markets-open-on-july-6/article-196398/"
+    }
+   ]
+  },
+  "cochin-shipyard": {
+   "name": "Cochin Shipyard Limited",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-07",
+     "note": "The Government of India holds a majority stake in Cochin Shipyard and conducted a 5.04% OFS in July 2026 over two days, making it a benchmark PSU divestment transaction for gauging institutional appetite for government paper in the secondary market.",
+     "deal_type": "OFS",
+     "sector": "Other",
+     "source": "Sahi",
+     "url": "https://www.sahi.com/"
+    }
+   ]
+  },
+  "national-stock-exchange-of-india": {
+   "name": "National Stock Exchange of India Limited",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-07",
+     "note": "NSE filed its DRHP for an IPO in 2026 following SEBI's no-objection certificate and board approval in February 2026, positioning the listing as potentially one of the largest IPOs in Indian capital markets history and the most significant market-infrastructure ECM transaction to date.",
+     "deal_type": "IPO",
+     "sector": "Market Infra",
+     "source": "Reuters",
+     "url": "https://zerodha.com/ipo/411840/national-stock-exchange/"
     }
    ]
   }
