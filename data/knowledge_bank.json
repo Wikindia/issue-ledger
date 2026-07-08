@@ -11,6 +11,14 @@
      "sector": "Other",
      "source": "voice.lapaas.com",
      "url": "https://voice.lapaas.com/pb-fintech-stake-sale"
+    },
+    {
+     "date": "2026-07-08",
+     "note": "Adani Enterprises completed a ₹15,000 crore QIP in July 2026 at ₹2,883 per share, allotting approximately 5.2 crore shares; the transaction ranks among the largest QIPs by an Indian corporate in 2026 and serves as a benchmark pricing reference for infrastructure-sector QIPs in H2 FY27.",
+     "deal_type": "QIP",
+     "sector": "Other",
+     "source": "HDFCSky / Exchange Filing",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda"
     }
    ]
   },
@@ -143,6 +151,22 @@
      "sector": "Market Infra",
      "source": "SEBI",
      "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html"
+    },
+    {
+     "date": "2026-07-08",
+     "note": "SEBI introduced a Settlement Helpdesk Facility (PR No. 38/2026, effective July 2026) to assist applicants with filing and indicative amount computation under the Settlement Proceedings Regulations 2018, lowering the procedural barrier for entities seeking to resolve legacy enforcement matters ahead of capital-raise transactions.",
+     "deal_type": "Regulatory",
+     "sector": "Market Infra",
+     "source": "CorpLawUpdates.in",
+     "url": "https://www.corplawupdates.in/category/sebi"
+    },
+    {
+     "date": "2026-07-08",
+     "note": "SEBI issued a consultation paper in July 2026 (comment deadline July 13, 2026) on draft standards for trading software and IT systems at stock exchanges, signalling forthcoming compliance obligations for market infrastructure institutions that may necessitate incremental technology capex and associated capital raising.",
+     "deal_type": "Regulatory",
+     "sector": "Market Infra",
+     "source": "CorpLawUpdates.in",
+     "url": "https://www.corplawupdates.in/category/sebi"
     }
    ]
   },
@@ -165,6 +189,22 @@
      "sector": "Market Infra",
      "source": "Oliveboard / RBI",
      "url": "https://www.oliveboard.in/blog/rbi-circulars/"
+    },
+    {
+     "date": "2026-07-08",
+     "note": "An RBI circular issued in 2026 (effective April 1, 2027) permits banks to extend credit to SEBI-registered REITs and InvITs under defined risk management norms, materially expanding the debt capital options available to infrastructure trusts and strengthening their balance sheets ahead of follow-on unit offerings.",
+     "deal_type": "Regulatory",
+     "sector": "Market Infra",
+     "source": "Oliveboard / RBI Circular 2026",
+     "url": "https://www.oliveboard.in/blog/rbi-circulars/"
+    },
+    {
+     "date": "2026-07-08",
+     "note": "RBI mandated in 2026 that all bank exposures to brokers be classified as capital market exposures and subjected to Large Exposure Framework limits, effectively capping single-bank borrowing for large brokerages and potentially tightening margin-trading and working-capital funding across the broking industry.",
+     "deal_type": "Regulatory",
+     "sector": "Fintech",
+     "source": "INDmoney blog / RBI Circular",
+     "url": "https://www.indmoney.com/blog/stocks/rbi-circular-on-brokers-explained"
     }
    ]
   },
@@ -301,6 +341,76 @@
      "sector": "Market Infra",
      "source": "Reuters",
      "url": "https://zerodha.com/ipo/411840/national-stock-exchange/"
+    }
+   ]
+  },
+  "ideaforge-technology": {
+   "name": "ideaForge Technology",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-08",
+     "note": "ideaForge Technology launched a ₹500 crore QIP in July 2026 at a floor price of ₹795 per share (a 5.4% discount to the prior NSE close), marking a significant defence-drone sector equity fundraise and establishing a valuation reference point for institutional investors in the UAV space.",
+     "deal_type": "QIP",
+     "sector": "Other",
+     "source": "HDFCSky / Exchange Filing",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda"
+    }
+   ]
+  },
+  "kusumgar": {
+   "name": "Kusumgar",
+   "type": "Issuer",
+   "entries": [
+    {
+     "date": "2026-07-08",
+     "note": "Kusumgar conducted a ₹650 crore IPO in July 2026 structured entirely as an Offer for Sale with no primary proceeds, making it a pure promoter/PE exit vehicle and a demand barometer for mid-market IPOs in the July 2026 issuance window.",
+     "deal_type": "IPO",
+     "sector": "Other",
+     "source": "India Infoline",
+     "url": "https://www.indiainfoline.com/news/ipo/kusumgar-ipo-opens-for-subscription-check-price-band-gmp-key-dates-financials"
+    }
+   ]
+  },
+  "capital-small-finance-bank": {
+   "name": "Capital Small Finance Bank",
+   "type": "Bank",
+   "entries": [
+    {
+     "date": "2026-07-08",
+     "note": "Amicus Capital Private Equity I LLP reduced its stake in Capital Small Finance Bank to 2.85% through a secondary sale in mid-2026, signalling active PE monetisation in the small finance bank space and leaving a residual overhang that may result in further block trades.",
+     "deal_type": "OFS",
+     "sector": "Bank",
+     "source": "HDFCSky",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda"
+    }
+   ]
+  },
+  "amicus-capital-private-equity": {
+   "name": "Amicus Capital Private Equity I LLP",
+   "type": "PE Firm",
+   "entries": [
+    {
+     "date": "2026-07-08",
+     "note": "Amicus Capital Private Equity I LLP trimmed its holding in Capital Small Finance Bank to 2.85% in mid-2026 via a secondary block transaction, continuing a pattern of staged PE exits from small finance bank investments in India.",
+     "deal_type": "OFS",
+     "sector": "Bank",
+     "source": "HDFCSky",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda"
+    }
+   ]
+  },
+  "sbicap-securities": {
+   "name": "SBICAP Securities",
+   "type": "Other",
+   "entries": [
+    {
+     "date": "2026-07-08",
+     "note": "SBICAP Securities' CEO flagged in July 2026 that elevated primary market supply — including promoter stake sales, strategic investor exits, QIPs, and preferential allotments — poses a near-term structural risk to secondary market returns, underscoring the need for disciplined issuance window management.",
+     "deal_type": "Other",
+     "sector": "Bank",
+     "source": "BusinessToday",
+     "url": "https://www.businesstoday.in/markets/story/baldev-prakash-sbicap-securities-market-outlook-q1-earnings-fii-flows-it-stocks-autos-defence-shares-541661-2026-07-08"
     }
    ]
   }

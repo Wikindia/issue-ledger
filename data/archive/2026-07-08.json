@@ -1,0 +1,261 @@
+{
+ "pulse": {
+  "sections": {
+   "deals": [
+    {
+     "headline": "Adani Enterprises closes ₹15,000 cr QIP at ₹2,883/share",
+     "source": "HDFCSky / Exchange Filing",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda",
+     "significance": "One of the largest QIPs by an Indian corporate in 2026; 5.2 crore shares allotted, closed July 7 — supply overhang watch for Adani Enterprises stock today.",
+     "pitch_angle": "Track post-QIP lock-up roll-off and secondary block opportunities; use as benchmark pricing reference for infrastructure-sector QIPs in H2 FY27.",
+     "tags": {
+      "companies": [
+       "Adani Enterprises"
+      ],
+      "deal_type": "QIP",
+      "sector": "Other"
+     }
+    },
+    {
+     "headline": "ideaForge Technology launches ₹500 cr QIP at ₹795/share floor",
+     "source": "HDFCSky / Exchange Filing",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda",
+     "significance": "QIP launched today (July 8) at a 5.4% discount to July 7 NSE close; defence-drone sector fundraise tests institutional appetite at current valuations.",
+     "pitch_angle": "Monitor bookbuild outcome and anchor quality; positions ideaForge for follow-on defence-sector capital-raise advisory mandates.",
+     "tags": {
+      "companies": [
+       "ideaForge Technology"
+      ],
+      "deal_type": "QIP",
+      "sector": "Other"
+     }
+    },
+    {
+     "headline": "Kusumgar IPO opens July 8; ₹650 cr pure OFS, closes July 10",
+     "source": "India Infoline",
+     "url": "https://www.indiainfoline.com/news/ipo/kusumgar-ipo-opens-for-subscription-check-price-band-gmp-key-dates-financials",
+     "significance": "Entire ₹650 crore issue is OFS (no primary proceeds); subscription data through the week will test mid-market IPO demand in July window.",
+     "pitch_angle": "Pure OFS structure limits use-of-proceeds story; banker angle is post-listing PE exit advisory and secondary block planning for remaining promoter stake.",
+     "tags": {
+      "companies": [
+       "Kusumgar"
+      ],
+      "deal_type": "IPO",
+      "sector": "Other"
+     }
+    },
+    {
+     "headline": "Amicus Capital stake in Capital Small Finance Bank reduced post-deal",
+     "source": "HDFCSky",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-july-8-2026-ideaforge-3i-infotech-capital-sfb-adani-enterprises-uno-minda",
+     "significance": "Amicus Capital Private Equity I LLP stake trimmed to 2.85% in Capital Small Finance Bank — signals ongoing PE monetisation in small finance bank space.",
+     "pitch_angle": "Residual 2.85% overhang suggests further block trade potential; BFSI ECM desks should engage Amicus on a structured exit timeline.",
+     "tags": {
+      "companies": [
+       "Capital Small Finance Bank",
+       "Amicus Capital Private Equity I LLP"
+      ],
+      "deal_type": "OFS",
+      "sector": "Bank"
+     }
+    },
+    {
+     "headline": "IPO/QIP pipeline weighing on secondary liquidity — SBICAP Securities CEO",
+     "source": "BusinessToday",
+     "url": "https://www.businesstoday.in/markets/story/baldev-prakash-sbicap-securities-market-outlook-q1-earnings-fii-flows-it-stocks-autos-defence-shares-541661-2026-07-08",
+     "significance": "SBICAP Securities CEO flags promoter stake sales, strategic investor exits, and QIP/preferential allotments as a key near-term risk to secondary market returns.",
+     "pitch_angle": "Growing primary supply is a structural tailwind for ECM mandates; pitch window-management and investor allocation advisory to issuers seeking to avoid secondary pressure.",
+     "tags": {
+      "companies": [
+       "SBICAP Securities"
+      ],
+      "deal_type": "Other",
+      "sector": "Bank"
+     }
+    }
+   ],
+   "market": [
+    {
+     "headline": "Nifty slips below 24,400 on profit-booking, ends four-day rally",
+     "source": "ICICI Direct",
+     "url": "https://www.icicidirect.com/share-market-today",
+     "significance": "Nifty broke a four-session winning streak on July 7 as profit-booking set in; Gift Nifty down 0.78% signals a cautious open for July 8.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Nifty IT surges 2.43%; FMCG and IT offset Trent-led drag on July 7",
+     "source": "ICICI Direct",
+     "url": "https://www.icicidirect.com/share-market-today",
+     "significance": "IT sector outperformance (Nifty IT +2.43%) drove the only meaningful positive sector rotation even as broader index fell, reflecting selective risk-on in large-cap technology.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "FIIs net buyers ₹393 cr; DIIs net sellers ₹383 cr on July 7",
+     "source": "5paisa / Trendlyne",
+     "url": "https://www.5paisa.com/share-market-today/fii-dii-data",
+     "significance": "Modest FII cash buying with DIIs in net-sell mode — offsetting flows keep index rangebound; FII futures position shows heavy Nifty short overlay suggesting hedged stance.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "FII F&O: heavy Nifty futures short despite cash buying on July 7",
+     "source": "NiftyTrader",
+     "url": "https://www.niftytrader.in/fii-dii-data",
+     "significance": "FIIs bought ₹393 cr in cash but held large Nifty futures short — a split signal indicating FIIs are hedging, not making directional bets; put hedge unwind also detected.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "FII rotation into old-economy sectors from global AI plays: SBICAP",
+     "source": "BusinessToday",
+     "url": "https://www.businesstoday.in/markets/story/baldev-prakash-sbicap-securities-market-outlook-q1-earnings-fii-flows-it-stocks-autos-defence-shares-541661-2026-07-08",
+     "significance": "SBICAP Securities CEO notes selective FII buying in India where earnings remain robust even amid aggregate net outflows — supports BFSI, banks, auto and defence over IT.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Market",
+      "sector": ""
+     }
+    }
+   ],
+   "macro": [
+    {
+     "headline": "RBI holds repo rate at 5.25%, neutral stance maintained in June MPC",
+     "source": "ClearTax / Trading Economics",
+     "url": "https://tradingeconomics.com/india/interest-rate",
+     "significance": "RBI's second consecutive hold at 5.25% with neutral stance; FY27 inflation projected at 4.6% — no near-term rate cut signal, keeping cost of equity capital elevated.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "India 10Y G-Sec yield at 6.70%, down ~37 bps in six weeks",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Bond yield rally driven by FPI inflows, easing monsoon inflation risk, and lower crude; state bond auction of ₹213.5 bn this week is next directional catalyst for yields.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Brent crude fell ~21% in June post OPEC+ output hike; supporting INR and yields",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Sharp crude decline reduces India's import bill and inflation pressure, supporting the case for a benign bond yield environment and INR stability into Q2 FY27.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "Fed minutes awaited for fresh rate signals; US yields key global cue",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/government-bond-yield",
+     "significance": "Investors globally watching Fed minutes for rate-path clarity; any hawkish surprise could reverse FPI flows into Indian bonds and pressure the INR.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    },
+    {
+     "headline": "RBI FY27 GDP growth forecast at 6.9%; Q2 revised down to 6.7%",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/india/interest-rate",
+     "significance": "Modest growth downgrade with rising inflation projection (4.6% FY27) constrains aggressive RBI easing — equity risk premium stays higher-for-longer, affecting IPO valuation anchoring.",
+     "pitch_angle": "",
+     "tags": {
+      "companies": [],
+      "deal_type": "Macro",
+      "sector": ""
+     }
+    }
+   ],
+   "regulatory": [
+    {
+     "headline": "SEBI launches Settlement Helpdesk Facility for enforcement proceedings",
+     "source": "CorpLawUpdates.in",
+     "url": "https://www.corplawupdates.in/category/sebi",
+     "significance": "SEBI PR No. 38/2026 (July 1, 2026) creates a helpdesk for settlement application filing and indicative amount computation under Settlement Proceedings Regulations, 2018 — lowers barrier for entities seeking to settle enforcement matters.",
+     "pitch_angle": "Faster settlement pathway could unlock capital-raise readiness for entities facing legacy enforcement actions; relevant for pre-IPO BFSI issuers with open SEBI matters.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "SEBI consultation paper on Trading Software & Technology at exchanges open until July 13",
+     "source": "CorpLawUpdates.in",
+     "url": "https://www.corplawupdates.in/category/sebi",
+     "significance": "SEBI seeking public comments on draft circular for trading software and IT standards at stock exchanges; comment deadline July 13, 2026 — market infrastructure firms must respond.",
+     "pitch_angle": "New tech compliance obligations at exchanges may trigger capex cycles and preferential/rights issuance by exchange/MII-adjacent listed entities — monitor for follow-on capital raising mandates.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "RBI new guidelines allow bank lending to SEBI-registered REITs and InvITs",
+     "source": "Oliveboard / RBI Circular 2026",
+     "url": "https://www.oliveboard.in/blog/rbi-circulars/",
+     "significance": "RBI 2026 circular permits banks to lend to SEBI-registered REITs and InvITs under defined risk management norms, effective April 1, 2027 — opens new debt capital avenue for infrastructure trusts.",
+     "pitch_angle": "Expanded bank lending eligibility will improve REIT/InvIT credit profiles, supporting their ability to raise equity through follow-on unit offerings; pitch this to REIT/InvIT managers ahead of FY27 capex cycles.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Market Infra"
+     }
+    },
+    {
+     "headline": "RBI 2026 credit rules treat all broker exposures as capital market exposure",
+     "source": "INDmoney blog / RBI Circular",
+     "url": "https://www.indmoney.com/blog/stocks/rbi-circular-on-brokers-explained",
+     "significance": "RBI requires banks to apply Large Exposure Framework limits to brokers; single-bank borrowing for large brokerages now capped — could tighten margin-trading funding and working capital for large brokerages.",
+     "pitch_angle": "Funding constraints on brokers may accelerate their need to raise equity capital; BFSI ECM desk should engage large listed brokerages on rights issues or QIPs to shore up balance sheets.",
+     "tags": {
+      "companies": [],
+      "deal_type": "Regulatory",
+      "sector": "Fintech"
+     }
+    }
+   ]
+  },
+  "one_line_read": "Indian ECM opens July 8 with a live Adani Enterprises ₹15,000 cr QIP allotment and a fresh ideaForge ₹500 cr QIP launch dominating deal flow, against a cautious market backdrop of a Nifty profit-booking pullback, thin and offsetting FII/DII flows, and a bond market pausing ahead of state debt supply and Fed minutes.",
+  "quiet_day": false
+ },
+ "card": {
+  "mode": "sensei",
+  "title": "Whose Approval Are You Actually Chasing?",
+  "question": "You are preparing to move to a foreign bank or a PE fund — but I want to ask you something before we discuss the destination: when you imagine landing that role, who is it that you picture feeling satisfied? Is it you, or is it someone watching you?",
+  "teaching": "I do not ask this to be clever. I ask because the answer changes everything about how you prepare.\n\nAdler would say this: the desire to be recognised is not the same as the desire to contribute. Recognition requires an audience. Contribution does not. And when we confuse the two, we begin optimising for the image of the achievement rather than the work that produces it. The exit to a foreign bank becomes a trophy to be displayed — to parents, to relatives deciding a marriage match, to former colleagues — rather than a door you walk through because it genuinely suits your capabilities and what you want to build.\n\nNow, I am not suggesting your ambition is impure. That would be presumptuous. But consider: you have live deal experience that most candidates your age in India do not have. Bajaj Housing Finance, Tata Capital, NSDL — these are not small things. And yet, there is a kind of person who accumulates real substance and still feels unsettled, because the substance was never the point. The point was the feeling of being seen to have it.\n\nAdler calls this the 'life-lie' — the story we tell ourselves that keeps us safe from the present moment. 'Once I get the FIB offer, then I will feel settled. Once the marriage question is resolved, then I can focus.' But the future is not a place you arrive at. It is a fiction you use to delay living now.\n\nSo here is the only question that matters today: if no one — not your family, not an interviewer, not a peer — ever knew which firm you joined, would you still want to join it?\n\nIf yes, proceed. If you hesitate, that hesitation is worth more than any interview prep I could offer you."
+ }
+}
