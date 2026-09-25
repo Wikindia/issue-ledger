@@ -1,0 +1,13 @@
+{
+ "pulse": {
+  "items": [],
+  "quiet_day": true,
+  "one_line_read": "Pulse unavailable today — the engine hit an error; yesterday's knowledge bank is unaffected."
+ },
+ "card": {
+  "mode": "sensei",
+  "title": "No card today",
+  "question": "The coaching engine hit an error.",
+  "teaching": "It will return tomorrow. A missed day is information, not a broken chain."
+ }
+}
